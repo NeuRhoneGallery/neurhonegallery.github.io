@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuRhône Gallery</title>
+    <!-- Fonts -- not sure about them yet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Color palette :same one as the canva moodboard jem bien -->
+    <style>
+        :root {
+            --bg: #1a1a1a;
+            --bg-card: #232323;
+            --bg-modal: #1e1e1e;
+            --text: #e8e0d8;
+            --text-muted: #9a938b;
+            --accent: #c4736e;
+            --accent-light: #d4908b;
+            --accent-dark: #a85a55;
+            --cream: #f0e6da;
+            --gap: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 28px 48px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+            pointer-events: none;
+        }
+
+        header > * {
+            pointer-events: auto;
+        }
+
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo-group img {
+            height: 200px;
+            width: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 40px;
+        }
+
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: var(--cream);
+        }
+
+        nav a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            height: 1.5px;
+            background: var(--accent);
+        }
+
+        /* ─── HERO ─── */
+        .hero {
+            text-align: center;
+            padding: 40px 48px 48px;
+        }
+
+        .hero p {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.35rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-muted);
+            max-width: 680px;
+            margin: 0 auto;
+            letter-spacing: 0.3px;
+        }
+
+        /* ─── GALLERY GRID ─── */
+        .gallery {
+            padding: 0 48px 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: var(--gap);
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            position: relative;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 2px;
+            background: var(--bg-card);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), filter 0.4s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.15) 50%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.4s;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 24px;
+        }
+
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay .item-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--cream);
+            margin-bottom: 4px;
+        }
+
+        .overlay .item-researcher {
+            font-size: 0.82rem;
+            color: var(--accent-light);
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        /* ─── MODAL / DETAIL VIEW ─── */
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.88);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s, visibility 0.4s;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .modal-backdrop.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-close {
+            position: fixed;
+            top: 24px;
+            right: 32px;
+            z-index: 1010;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 2rem;
+            cursor: pointer;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s, transform 0.3s;
+            font-weight: 300;
+        }
+
+        .modal-close:hover {
+            color: var(--cream);
+            transform: rotate(90deg);
+        }
+
+        .modal-content {
+            max-width: 1600px;
+            margin: 48px auto;
+            padding: 0 48px 80px;
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 56px;
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.5s 0.1s, transform 0.5s 0.1s;
+        }
+
+        .modal-backdrop.open .modal-content {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .modal-image-col {
+            position: sticky;
+            top: 48px;
+            align-self: start;
+            padding-top: 10vh;
+        }
+
+        .modal-image-col img {
+            width: 100%;
+            border-radius: 3px;
+            display: block;
+        }
+
+        .modal-image-caption {
+            margin-top: 16px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .modal-image-caption .caption-label {
+            color: var(--accent);
+            font-weight: 500;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .modal-image-caption a {
+            color: var(--accent-light);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .modal-image-caption a:hover {
+            border-bottom-color: var(--accent-light);
+        }
+
+        .modal-info-col {
+            padding-top: 8px;
+        }
+
+        /* Researcher card */
+        .researcher-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .researcher-card img {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--accent);
+        }
+
+        .researcher-card .rc-info .rc-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .researcher-card .rc-info .rc-role {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+            line-height: 1.4;
+        }
+
+        /* Interview Q&A */
+        .interview-section {
+            margin-bottom: 32px;
+        }
+
+        .interview-section h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--cream);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .interview-section p {
+            font-size: 0.92rem;
+            line-height: 1.75;
+            color: var(--text-muted);
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            text-align: center;
+            padding: 32px 48px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* ─── ABOUT & CONTACT PAGES ─── */
+        .page {
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 48px 80px;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        .page h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--cream);
+            margin-bottom: 24px;
+        }
+
+        .page p {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .page a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+
+        /* ─── ANIMATIONS ─── */
+        .gallery-item {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.6s forwards;
+        }
+
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .gallery-item:nth-child(1) { animation-delay: 0.05s; }
+        .gallery-item:nth-child(2) { animation-delay: 0.12s; }
+        .gallery-item:nth-child(3) { animation-delay: 0.19s; }
+        .gallery-item:nth-child(4) { animation-delay: 0.26s; }
+        .gallery-item:nth-child(5) { animation-delay: 0.33s; }
+        .gallery-item:nth-child(6) { animation-delay: 0.40s; }
+        .gallery-item:nth-child(7) { animation-delay: 0.47s; }
+        .gallery-item:nth-child(8) { animation-delay: 0.54s; }
+        .gallery-item:nth-child(9) { animation-delay: 0.61s; }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 900px) {
+            header { padding: 20px 24px; }
+            .hero { padding: 24px 24px 32px; }
+            .gallery { padding: 0 24px 60px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+            .modal-content { grid-template-columns: 1fr; gap: 32px; padding: 0 24px 60px; }
+            .modal-image-col { position: static; }
+            nav { gap: 24px; }
+        }
+
+        @media (max-width: 580px) {
+            .logo-text .name { font-size: 1.3rem; }
+            .logo-text .sub { font-size: 0.9rem; }
+            .gallery { grid-template-columns: 1fr; }
+            nav { gap: 16px; }
+            nav a { font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-group">
+            <img src="images/logo.png" alt="NeuRhône Gallery logo">
+        </div>
+        <nav>
+            <a href="#" class="active" data-page="gallery">Gallery</a>
+            <a href="#" data-page="about">About Us</a>
+            <a href="#" data-page="contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ════════ GALLERY PAGE ════════ -->
+    <main id="page-gallery" class="active">
+        <div class="hero">
+            <p>A gallery that encompasses some of the neuroscience research led in Lyon</p>
+        </div>
+        <div class="gallery" id="gallery-grid">
+            <!-- Items are injected by JS from the data below -->
+        </div>
+    </main>
+
+    <!-- ════════ ABOUT PAGE ════════ -->
+    <main id="page-about" class="page">
+        <h2>About Us</h2>
+        <p>
+            NeuRhône Gallery is a science outreach project that bridges neurosciences and art
+            by showcasing the most striking research visuals from Lyon's neuroscience community.
+        </p>
+        <p>
+            Each image tells a story — of neurons firing, of brain structures revealed, of data
+            transformed into something beautiful. Behind every image is a researcher who chose it
+            because it captures something special about their work.
+        </p>
+        <p>
+            This project was born from the idea that scientific imagery can inspire awe and curiosity
+            in anyone, not just scientists. We invite you to explore, learn, and see the brain
+            like you never have before.
+        </p>
+    </main>
+
+    <!-- ════════ CONTACT PAGE ════════ -->
+    <main id="page-contact" class="page">
+        <h2>Contact</h2>
+        <p>
+            Interested in contributing an image or collaborating? Reach out to us at
+            <a href="mailto:neurhonegallery@gmail.com">neurhonegallery@gmail.com</a>
+        </p>
+        <p>
+            NeuRhône Gallery is based in Lyon, France, within the neuroscience research community
+            of Université Claude Bernard Lyon 1 and associated laboratories.
+        </p>
+    </main>
+
+    <!-- ════════ DETAIL MODAL ════════ -->
+    <div class="modal-backdrop" id="modal">
+        <button class="modal-close" id="modal-close">×</button>
+        <div class="modal-content" id="modal-inner">
+            <!-- Filled dynamically -->
+        </div>
+    </div>
+
+    <footer>
+        NeuRhône Gallery · Master Neurosciences · Université Claude Bernard lyon 1 
+    </footer>
+
+    <script>
+    // ══════════════════════════════════════════════
+    //  LOAD DATA FROM JSON & RENDER
+    // ══════════════════════════════════════════════
+    let galleryData = [];
+
+    const grid = document.getElementById('gallery-grid');
+    const modal = document.getElementById('modal');
+    const modalInner = document.getElementById('modal-inner');
+    const modalClose = document.getElementById('modal-close');
+
+    // Load gallery data from external JSON
+    fetch('data/gallery.json')
+        .then(res => res.json())
+        .then(data => {
+            galleryData = data;
+            renderGallery();
+            const match = window.location.hash.match(/^#image-(\d+)$/);
+            if (match) {
+                 const item = galleryData.find(d => d.id === parseInt(match[1]));
+                if (item) openModal(item);
+         }
+    })
+        .catch(err => {
+            grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;">Erreur de chargement des données. Vérifiez que data/gallery.json existe.</p>';
+            console.error('Failed to load gallery data:', err);
+        });
+
+    function renderGallery() {
+        grid.innerHTML = '';
+        galleryData.forEach((item, i) => {
+            const div = document.createElement('div');
+            div.className = 'gallery-item';
+            div.style.animationDelay = `${0.05 + i * 0.07}s`;
+            div.innerHTML = `
+                <img src="${item.image}" alt="${item.title}" loading="lazy"
+                     onerror="this.style.background='#2a2a2a';this.alt='Image à venir'">
+                <div class="overlay">
+                    <div class="item-title">${item.title}</div>
+                    <div class="item-researcher">${item.researcher.name}</div>
+                </div>
+            `;
+            div.addEventListener('click', () => openModal(item));
+            grid.appendChild(div);
+        });
+    }
+
+    // ══════════════════════════════════════════════
+    //  MODAL
+    // ══════════════════════════════════════════════
+    function openModal(item) {
+        const interviewHTML = item.interview.map(q => `
+            <div class="interview-section">
+                <h3>${q.question}</h3>
+                <p>${q.answer}</p>
+            </div>
+        `).join('');
+
+        modalInner.innerHTML = `
+            <div class="modal-image-col">
+                <img src="${item.image}" alt="${item.title}"
+                     onerror="this.style.background='#2a2a2a'">
+                <div class="modal-image-caption">
+                    <span class="caption-label">${item.description}</span>
+                    ${item.articleLink && item.articleLink !== '#'
+                        ? `<a href="${item.articleLink}" target="_blank">${item.articleLabel || 'Article en lien'}</a>`
+                        : `<span style="color:var(--text-muted)">${item.articleLabel || 'Article en lien avec la figure'}</span>`
+                    }
+                </div>
+            </div>
+            <div class="modal-info-col">
+                <div class="researcher-card">
+                    <img src="${item.researcher.photo}" alt="${item.researcher.name}"
+                         onerror="this.style.background='var(--accent-dark)'">
+                    <div class="rc-info">
+                        <div class="rc-name">${item.researcher.name}</div>
+                        <div class="rc-role">${item.researcher.role}<br>${item.researcher.funFact}</div>
+                    </div>
+                </div>
+                ${interviewHTML}
+            </div>
+        `;
+
+        modal.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        window.location.hash = `image-${item.id}`;
+    }
+
+    function closeModal() {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+        history.replaceState(null, '', window.location.pathname);
+    }
+
+    modalClose.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+    });
+
+    // ══════════════════════════════════════════════
+    //  PAGE NAVIGATION
+    // ══════════════════════════════════════════════
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const page = link.dataset.page;
+
+            // Update nav
+            document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+            link.classList.add('active');
+
+            // Show/hide pages
+            document.querySelectorAll('main').forEach(m => {
+                m.classList.remove('active');
+                m.style.display = 'none';
+            });
+
+            const target = document.getElementById(`page-${page}`);
+            if (target) {
+                target.style.display = '';
+                target.classList.add('active');
+            }
+        });
+    });
+
+    // Init
+    renderGallery();
+    document.getElementById('page-about').style.display = 'none';
+    document.getElementById('page-contact').style.display = 'none';
+
+    // ══════════════════════════════════════════════
+    //  DEEP LINKING (for QR codes)
+    // ══════════════════════════════════════════════
+        window.addEventListener('hashchange', () => {
+        const match = window.location.hash.match(/^#image-(\d+)$/);
+        if (match) {
+            const item = galleryData.find(d => d.id === parseInt(match[1]));
+            if (item) openModal(item);
+        } else {
+            closeModal();
+        }
+        });
+    </script>
+</body>
+</html>
