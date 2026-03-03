@@ -12,7 +12,7 @@
             "role": "Doctorante en neurosciences, ISC-MJ"},
         "interview": [
             {
-                "question": "quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
                 "answer": "Du calme et de la sérénité."
             },
             {
@@ -28,11 +28,11 @@
                 "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
             },
             {
-                "question": "ette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
                 "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
             },
             {
-                "question": "Racontez-moi un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou un moment plutôt un hasard heureux ?",
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
                 "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
             },
             {
@@ -62,150 +62,148 @@
             "role": "Doctorante en neurosciences, CRNL"},
         "interview": [
             {
-                "question": "quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Une sensation de nostalgie, d’éclat et de bien-être."
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "answer": "Du calme et de la sérénité."
             },
             {
                 "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Cela me fait penser à de l’art contemporain par ses couleurs vives."
+                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
             },
             {
                 "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Ce qui est captivant sont les petites taches de couleurs vives, elles donnent un ensemble visuel agréable mais bien qu’elles soient minimes, si l’on se concentre, on peut les discerner une par une."
+                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
             },
             {
                 "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Elle me fait penser aux guirlandes de couleur, suspendus au-dessus des arbres des places des villages du sud de la France, lors des guinguettes en été, ou alors à celles de Noël dans les maisons."
+                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
             },
             {
-                "question": "ette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Que même dans les moments les plus sombres de sa vie, on a ces petites lumières en nous, qui scintillent."
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
             },
             {
-                "question": "Racontez-moi un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou un moment plutôt un hasard heureux ?",
-                "answer": "Pour en arriver là, c’est le fruit d’un effort de plusieurs mois de travail de manipulation in vivo, puis ex vivo, puis d’analyse d’image."
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
+                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
             },
             {
                 "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "Le secret est que je peux changer les couleurs à ma guise, et que j’ai décrété que tel neurone devait avoir tel couleur, créant une harmonie de couleur, permettant de distinguer correctement chaque neurone. Finalement être scientifique, c’est être aussi artiste."
+                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
             },
             {
                 "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Vous faites face à une coupe de cerveau de souris, le cortex se situe en haut de l’image, en dessous l’hippocampe, puis le thalamus, suivis de l’hypothalamus situé au bas de l’image. Chaque couleur marque un type de neurone, ici sont marqués en vert les neurones actifs en sommeil paradoxal. Ceux en rouge sont ceux actifs en éveil, puis, en violet sont les neurones produisant l’hormone de mélano-concentration (MCH). Certains neurones peuvent être marqués de plusieurs couleurs, et c’est justement ce que nous avons cherché à voir. Arrivez vous à observer ces doubles marquages ? Selon les neurones MCH sont plus activés en éveil ou en sommeil paradoxal ?"
+                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
             },
             {
                 "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
-                "answer": "Ces images nous permettent d’établir une cartographie des neurones actifs lors d’un état de vigilance donné, ici lors de l’éveil (rouge) ou du sommeil paradoxal (vert), et de déterminer leur identité neurochimique. A terme cela nous aidera à mieux comprendre les maladies liées au sommeil et ainsi mieux les traiter."
+                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
             }
         ]
     },
     {
         "id": 3,
-        "image": "images/gallery/mouse-brain.jpg",
-        "title": "Coupe de cerveau de souris",
-        "description": "Coupes coronales de cerveau de souris en autofluorescence.",
+        "image": "images/gallery/manuel_conn.png",
+        "title": "Together We Move",
+        "description": "Functionnal Connectome.",
         "articleLink": "#",
         "articleLabel": "Article en lien",
         "researcher": {
-            "name": "Jean-Michel Durand",
+            "name": "Manuel Mello",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorant, SBRI",
-            "funFact": "Fan de randonnée"
-        },
+            "role": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod"
+                },
         "interview": [
             {
-                "question": "quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Du calme et de la sérénité."
+                "question": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?",
+                "answer": "A feeling of interconnectedness; the sensation that, beyond single elements, their relationships are equally – if not more – important."
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+                "question": "If this figure were a work of art, what artistic movement or artist would it remind you of?",
+                "answer": "I would say something in between realism – for the image depicts a real object, the brain – and constructivism, for the use of geometric shapes to convey a message."
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+                "question": "Which colors, shapes, or textures captivate you most in this visual?",
+                "answer": "The colors of each node (brain regions), which, despite being different from each other and “isolated”, they are nonetheless functionally connected by strong, red links."
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+                "question": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?",
+                "answer": "The image reminds me of depictions used to represent different kinds of networks, such as human social networks, the Internet, railroads, and so on, which all have in common the beautiful principle of being interconnected."
             },
             {
-                "question": "ette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "question": "Could this figure serve as a metaphor for the human experience more broadly? ?",
                 "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
             },
             {
-                "question": "Racontez-moi un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou un moment plutôt un hasard heureux ?",
-                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+                "question": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?",
+                "answer": "More than the result of a long effort – which definitely contributed –, the figure came from thinking about the state of things (data) from a different perspective; from “having the courage” of exploring different approaches than the usuals. "
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+                "question": "What's the 'secret' or little anecdote behind this image that a scientific journal would never publish?",
+                "answer": "The fact that I had to, and probably will still have to, convince some colleagues that this is a sensible way of thinking about and represent my data."
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+                "question": "Could you explain, as simply as possible, what scientific insight this figure highlights?",
+                "answer": "The figure depicts a functional connectome of a brain state in 10-month-old infants. In particular, the dots (nodes) are specific brain regions, while the links connecting them (edges) represent to what extent their activity was correlated during the perception of an event. "
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
-                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+                "question": "How important is what we're seeing here for our broader understanding of the brain?",
+                "answer": "The figure highlights that, beyond neural activity related to a single brain region, understanding functional integration between multiple areas is fundamental to enlighten how the brain processes information, including the infant brain."
             }
         ]
     },
     {
         "id": 4,
-        "image": "images/gallery/tractography.jpg",
-        "title": "Tractographie cérébrale",
-        "description": "Fibres de substance blanche reconstruites par tractographie de diffusion.",
+        "image": "images/gallery/delous.jpg",
+        "title": "Chouette, alors!",
+        "description": "Organoïde cortical.",
         "articleLink": "#",
         "articleLabel": "Article en lien",
         "researcher": {
-            "name": "Sophie Martin",
+            "name": "Marion Delous",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Ingénieure de recherche, CERMEP",
-            "funFact": "Joue du violoncelle"
+            "role": "Chercheuse, Centre de Recherche en Neurosciences de Lyon"
         },
         "interview": [
             {
-                "question": "quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Du calme et de la sérénité."
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "answer": "L’amusement d’un retour en enfance : cette image m’évoque les Barbapapa, personnages de livres et dessins animés pour enfants en forme de poire et aux grands yeux, de toutes les couleurs."
             },
             {
                 "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+                "answer": "Cette image me renvoie au pop art, aux dessins aux traits simplifiés ou photographies recolorées à l’infini."
             },
             {
                 "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+                "answer": "Les formes arrondies avec des couleurs définies pour chacune d’elles."
             },
             {
                 "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+                "answer": "Comme je disais précédemment, cette image m’évoque les Barbapapa. On peut y voir aussi une chouette. "
             },
             {
-                "question": "ette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "answer": "La chouette représente la sagesse et la connaissance. Par ses grands yeux ronds, elle exprime la curiosité et l'intérêt pour les mystères et secrets en tout genre. Finalement, ça en fait une mascotte pour les scientifiques… mieux que Barbapapa !"
             },
             {
-                "question": "Racontez-moi un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou un moment plutôt un hasard heureux ?",
-                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
+                "answer": "Cette image est celle d’une étudiante en thèse, Justine Guguin, qui a pu la capturer après de nombreux efforts pour cultiver ces structures qu’on appelle organoides. Chaque organoide a une forme propre, et celui-ci, dans cette coupe précise, était très évocatrice. Je dirais donc que cette image a procuré un émerveillement, une satisfaction, un plaisir à réussir une expérience longue et exigeante !"
             },
             {
                 "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+                "answer": "Il se trouve que cette image a fait la couverture du journal dans lequel l’article relatant le travail autour de ces organoides a été publié. Nous n’avions pas osé mettre cette image dans l’article, et elle aura quand même eu sa place en couverture ! "
             },
             {
                 "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+                "answer": "Nous voyons là une tranche d’organoide cortical, structure cellulaire en 3D qui s’auto-assemble à partir de cellules souches que l’on a guidées vers une différenciation neurale. Les yeux sont des rosettes neurales, dont l’organisation est proche du tube neural aux étapes très précoces du développement du cerveau humain. "
             },
             {
                 "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
-                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+                "answer": "Notre projet d’étude porte sur une maladie génétique rare qui se manifeste, dans les cas les plus graves, par une microcéphalie et un retard de croissance. Notre équipe a découvert le gène causal et dès lors, elle cherche à comprendre les mécanismes physiopathologiques qui mènent aux anomalies neurodéveloppementales. Grâce aux modèles des organoides corticaux, nous avons observé que les mutations du gène causal entrainent un défaut d’organisation des cellules en rosettes neurales."
             }
         ]
     },
     {
         "id": 5,
-        "image": "images/gallery/meg-signal.jpg",
+        "image": "images/gallery/manel.png",
         "title": "Signaux MEG",
         "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
         "articleLink": "#",
@@ -218,7 +216,7 @@
         },
         "interview": [
             {
-                "question": "quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
                 "answer": "Du calme et de la sérénité."
             },
             {
@@ -234,11 +232,11 @@
                 "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
             },
             {
-                "question": "ette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
                 "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
             },
             {
-                "question": "Racontez-moi un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou un moment plutôt un hasard heureux ?",
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
                 "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
             },
             {
@@ -254,5 +252,161 @@
                 "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
             }
         ]
-    }
+    },
+    {
+        "id": 6,
+        "image": "/images/gallery/Schreiweis_Figure.png",
+        "title": "Signaux MEG",
+        "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
+        "articleLink": "#",
+        "articleLabel": "Article en lien",
+        "researcher": {
+            "name": "Amir Benali",
+            "photo": "images/researchers/placeholder.jpg",
+            "role": "Doctorant, DYCOG",
+            "funFact": "Collectionne les vinyles"
+        },
+        "interview": [
+            {
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "answer": "Du calme et de la sérénité."
+            },
+            {
+                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+            },
+            {
+                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+            },
+            {
+                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+            },
+            {
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+            },
+            {
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
+                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+            },
+            {
+                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+            },
+            {
+                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+            },
+            {
+                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
+                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+            }
+        ]     
+    }, 
+    {
+        "id": 7,
+        "image": "images/gallery/tamara.png",
+        "title": "Signaux MEG",
+        "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
+        "articleLink": "#",
+        "articleLabel": "Article en lien",
+        "researcher": {
+            "name": "Amir Benali",
+            "photo": "images/researchers/placeholder.jpg",
+            "role": "Doctorant, DYCOG",
+            "funFact": "Collectionne les vinyles"
+        },
+        "interview": [
+            {
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "answer": "Du calme et de la sérénité."
+            },
+            {
+                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+            },
+            {
+                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+            },
+            {
+                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+            },
+            {
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+            },
+            {
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
+                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+            },
+            {
+                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+            },
+            {
+                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+            },
+            {
+                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
+                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+            }
+        ]     
+    },
+    {
+        "id": 7,
+        "image": "images/gallery/moreau_simul_2.png",
+        "title": "Signaux MEG",
+        "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
+        "articleLink": "#",
+        "articleLabel": "Article en lien",
+        "researcher": {
+            "name": "Amir Benali",
+            "photo": "images/researchers/placeholder.jpg",
+            "role": "Doctorant, DYCOG",
+            "funFact": "Collectionne les vinyles"
+        },
+        "interview": [
+            {
+                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                "answer": "Du calme et de la sérénité."
+            },
+            {
+                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+            },
+            {
+                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+            },
+            {
+                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+            },
+            {
+                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
+                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+            },
+            {
+                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
+                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+            },
+            {
+                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+            },
+            {
+                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+            },
+            {
+                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
+                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+            }
+        ]     
+    }  
 ]
