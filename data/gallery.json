@@ -212,7 +212,6 @@
             "name": "Manel Merabet Zennadi",
             "photo": "images/researchers/placeholder.jpg",
             "role": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon"
-            
         },
         "interview": [
             {
@@ -264,7 +263,6 @@
             "name": "Christiane Schreiweis",
             "photo": "images/researchers/placeholder.jpg",
             "role": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon"
-           
         },
         "interview": [
             {
@@ -311,7 +309,7 @@
         "title": "Révélation",
         "description": "Marquage du claustrum par immunofluorescence",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Tamara Basthard-Bogain",
             "photo": "images/researchers/placeholder.jpg",
@@ -363,12 +361,11 @@
         "title": "Émergence",
         "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Quentin Moreau",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod",
-            "funFact": ""
+            "role": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod"
         },
         "interview": [
             {
