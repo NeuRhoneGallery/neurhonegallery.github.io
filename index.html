@@ -543,8 +543,8 @@
                 <div class="modal-image-caption">
                     <span class="caption-label">${item.description}</span>
                     ${item.articleLink && item.articleLink !== '#'
-                        ? `<a href="${item.articleLink}" target="_blank">${item.articleLabel || 'Article en lien'}</a>`
-                        : `<span style="color:var(--text-muted)">${item.articleLabel || 'Article en lien avec la figure'}</span>`
+                        ? `<a href="${item.articleLink}" target="_blank">${item.articleLabel || ''}</a>`
+                        : `<span style="color:var(--text-muted)">${item.articleLabel || ''}</span>`
                     }
                 </div>
             </div>
