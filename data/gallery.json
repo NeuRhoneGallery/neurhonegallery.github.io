@@ -5,7 +5,7 @@
         "title": "Tartan Winter",
         "description": "Matrice de corrélation fonctionnelle issue d'enregistrements MEG",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Solène Gaillhard",
             "photo": "images/researchers/solene.jpg",
@@ -55,7 +55,7 @@
         "title": "Nuit de fête",
         "description": "Coupe de cevrau de souris. Neurones marqués par immunofluorescence.",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Amarine Chancel",
             "photo": "images/researchers/amarine.jpg",
@@ -105,7 +105,7 @@
         "title": "Together We Move",
         "description": "Functionnal Connectome.",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Manuel Mello",
             "photo": "images/researchers/placeholder.jpg",
@@ -156,7 +156,7 @@
         "title": "Chouette, alors!",
         "description": "Organoïde cortical.",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Marion Delous",
             "photo": "images/researchers/placeholder.jpg",
@@ -207,7 +207,7 @@
         "title": "l'Espoir d'un retour possible",
         "description": "IRM fonctionnelle chez les patients atteints de boulimie nerveuse.",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Manel Merabet Zennadi",
             "photo": "images/researchers/placeholder.jpg",
@@ -258,7 +258,7 @@
         "title": "Il y a un temps pour tout...",
         "description": "",
         "articleLink": "#",
-        "articleLabel": "Article en lien",
+        "articleLabel": "",
         "researcher": {
             "name": "Christiane Schreiweis",
             "photo": "images/researchers/placeholder.jpg",
