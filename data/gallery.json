@@ -2,408 +2,961 @@
     {
         "id": 1,
         "image": "images/gallery/matrix_solene.png",
-        "title": "Tartan Winter",
-        "description": "Matrice de corrélation fonctionnelle issue d'enregistrements MEG",
+        "title": { "fr": "Tartan Winter", "en": "Tartan Winter" },
+        "description": {
+            "fr": "Matrice de corrélation fonctionnelle issue d'enregistrements MEG",
+            "en": "Functional correlation matrix from MEG recordings"
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Solène Gaillhard",
             "photo": "images/researchers/solene.jpg",
-            "role": "Doctorante en neurosciences, ISC-MJ"},
+            "role": {
+                "fr": "Doctorante en neurosciences, ISC-MJ",
+                "en": "PhD student in neuroscience, ISC-MJ"
+            }
+        },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Du calme et de la sérénité."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Du calme et de la sérénité.",
+                    "en": "Calmness and serenity.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "De l'abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme.",
+                    "en": "Geometric abstraction, like Piet Mondrian — his artistic movement is Neo-Plasticism.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Les parties où les couleurs sont intenses et s'inversent, les lignes très géométriques.",
+                    "en": "The areas where the colors are intense and invert, and the very geometric lines.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Ça ressemble un peu à un tissage tartan celte ou à un écran d'ordinateur cassé.",
+                    "en": "It looks a bit like a Celtic tartan weave or a broken computer screen.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Que notre réalité dépend de notre expérience, de ce qu'on veut voir et des outils qu'on a pour la voir.",
+                    "en": "That our reality depends on our experience, on what we want to see, and on the tools we have to see it.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Plutôt un heureux hasard. J'utilise normalement une méthodologie développée par d'autres, je ne comprends pas tout ce qu'il y a en dessous. Un peu comme quand on mange un gâteau pas bon — si on n'a pas vu comment il a été préparé, on ne sait pas si le problème vient des ingrédients ou du four. J'étais un peu frustrée et je me suis dit que si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent), je comprendrais sûrement mieux !",
+                    "en": "More of a happy accident. I normally use a methodology developed by others and don't fully understand everything under the hood — a bit like eating a bad cake. If you didn't see how it was made, you can't tell whether the problem was the ingredients or the oven. I was a little frustrated, and I thought that if I visualized all the intermediate steps of the method — how the data is transformed and what it looks like — I would surely understand it better!",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "J'ai passé plus de temps à changer les couleurs de la figure pour qu'elles me plaisent qu'à analyser ce qu'elle voulait dire… la palette de couleur s'appelle « winter » et ça m'a plu.",
+                    "en": "I spent more time adjusting the figure's colors to my taste than actually analyzing what it meant… The color palette is called 'winter', and I liked that.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "Lorsqu'on enregistre l'activité cérébrale d'un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l'activité du cerveau (le signal qu'ils enregistrent « covarie » au cours du temps — ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevée, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert).",
+                    "en": "When recording a participant's brain activity, we use around 200 sensors that make up both the rows and columns of this figure. The colors represent how much the sensors agree about what the brain is doing — how much their signals 'co-vary' over time (with time collapsed here). This lets us visualize whether certain brain regions, even distant ones, are working together. When covariance is high, the color is intense: signals vary similarly (blue) or in opposite directions (green).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Cela ne nous dit rien directement pour le cerveau, mais cette matrice est une pièce maîtresse d'une méthode permettant de faire le lien entre ce qu'on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l'intérieur du cerveau (quand on fait un mouvement, qu'on écoute des sons particuliers…). Un peu comme trouver l'épicentre d'un séisme — ici la terre c'est la tête.",
+                    "en": "On its own, it tells us nothing directly about the brain — but this matrix is a cornerstone of a method that links what we record outside the brain to the actual sources and physical circuits of that activity within the brain (during movements, while listening to specific sounds…). A bit like finding the epicenter of an earthquake — here, the earth is the head.",
+                    "original": "fr"
+                }
             }
         ]
     },
     {
         "id": 2,
         "image": "images/gallery/coronal_slice_amarine.jpg",
-        "title": "Nuit de fête",
-        "description": "Coupe de cevrau de souris. Neurones marqués par immunofluorescence.",
+        "title": { "fr": "Nuit de fête", "en": "Party Night" },
+        "description": {
+            "fr": "Coupe de cerveau de souris. Neurones marqués par immunofluorescence.",
+            "en": "Mouse brain slice. Neurons labeled by immunofluorescence."
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Amarine Chancel",
             "photo": "images/researchers/amarine.jpg",
-            "role": "Doctorante en neurosciences, CRNL"},
+            "role": {
+                "fr": "Doctorante en neurosciences, CRNL",
+                "en": "PhD student in neuroscience, CRNL"
+            }
+        },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Du calme et de la sérénité."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Du calme et de la sérénité.",
+                    "en": "Calmness and serenity.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "De l’abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme. "
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "De l'abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme.",
+                    "en": "Geometric abstraction, like Piet Mondrian — his artistic movement is Neo-Plasticism.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Les parties où les couleurs sont intenses et s’inversent, les lignes très géométriques"
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Les parties où les couleurs sont intenses et s'inversent, les lignes très géométriques.",
+                    "en": "The areas where the colors are intense and invert, and the very geometric lines.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Ça ressemble un peu à un tissage tartan celte ou à un écran d’ordinateur cassé"
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Ça ressemble un peu à un tissage tartan celte ou à un écran d'ordinateur cassé.",
+                    "en": "It looks a bit like a Celtic tartan weave or a broken computer screen.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Que notre réalité dépend de notre expérience, de ce qu'on veut voir et des outils qu'on a pour la voir.",
+                    "en": "That our reality depends on our experience, on what we want to see, and on the tools we have to see it.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Plutôt un heureux hasard, j’utilise normalement une méthodologie qui a été développé par d’autres personnes, je ne comprends pas tout ce qu’il y a en dessous. Un peu comme quand on mange un gâteau pas bon, si on a pas vu comment il a été préparé on sait pas si le problème vient des ingrédients ou du four. J’étais un peu frustrée et je me suis dit si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent) – je comprendrais sûrement mieux !"
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Plutôt un heureux hasard. J'utilise normalement une méthodologie développée par d'autres, je ne comprends pas tout ce qu'il y a en dessous. Un peu comme quand on mange un gâteau pas bon — si on n'a pas vu comment il a été préparé, on ne sait pas si le problème vient des ingrédients ou du four. J'étais un peu frustrée et je me suis dit que si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent), je comprendrais sûrement mieux !",
+                    "en": "More of a happy accident. I normally use a methodology developed by others and don't fully understand everything under the hood — a bit like eating a bad cake. If you didn't see how it was made, you can't tell whether the problem was the ingredients or the oven. I was a little frustrated, and I thought that if I visualized all the intermediate steps of the method — how the data is transformed and what it looks like — I would surely understand it better!",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "J’ai passé plus de temps à changer les couleurs de la figure pour qu’elles me plaisent qu’à analyser ce qu’elle voulait dire… la palette de couleur s’appelle « winter » et ça m’a plu."
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "J'ai passé plus de temps à changer les couleurs de la figure pour qu'elles me plaisent qu'à analyser ce qu'elle voulait dire… la palette de couleur s'appelle « winter » et ça m'a plu.",
+                    "en": "I spent more time adjusting the figure's colors to my taste than actually analyzing what it meant… The color palette is called 'winter', and I liked that.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Lorsqu’on enregistre l’activité cérébrale d’un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l’activité du cerveau (le signal qu’ils enregistrent « covarie » au cours du temps (ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevé, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert). "
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "Lorsqu'on enregistre l'activité cérébrale d'un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l'activité du cerveau (le signal qu'ils enregistrent « covarie » au cours du temps — ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevée, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert).",
+                    "en": "When recording a participant's brain activity, we use around 200 sensors that make up both the rows and columns of this figure. The colors represent how much the sensors agree about what the brain is doing — how much their signals 'co-vary' over time (with time collapsed here). This lets us visualize whether certain brain regions, even distant ones, are working together. When covariance is high, the color is intense: signals vary similarly (blue) or in opposite directions (green).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Cela ne nous dit rien directement pour le cerveau mais cette matrice est une pièce maîtresse d’une méthode permettant de faire le lien entre ce qu’on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l’intérieur du cerveau (quand on fait un mouvement, qu’on écoute des sons particuliers…) ! Un peu comme trouver l’épicentre d’un séisme, ici la terre c’est la tête."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Cela ne nous dit rien directement pour le cerveau, mais cette matrice est une pièce maîtresse d'une méthode permettant de faire le lien entre ce qu'on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l'intérieur du cerveau (quand on fait un mouvement, qu'on écoute des sons particuliers…). Un peu comme trouver l'épicentre d'un séisme — ici la terre c'est la tête.",
+                    "en": "On its own, it tells us nothing directly about the brain — but this matrix is a cornerstone of a method that links what we record outside the brain to the actual sources and physical circuits of that activity within the brain (during movements, while listening to specific sounds…). A bit like finding the epicenter of an earthquake — here, the earth is the head.",
+                    "original": "fr"
+                }
             }
         ]
     },
     {
         "id": 3,
         "image": "images/gallery/manuel_conn.png",
-        "title": "Together We Move",
-        "description": "Functionnal Connectome.",
+        "title": { "fr": "Together We Move", "en": "Together We Move" },
+        "description": {
+            "fr": "Connectome fonctionnel.",
+            "en": "Functional Connectome."
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Manuel Mello",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod"
-                },
+            "role": {
+                "fr": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod",
+                "en": "Post-doctoral researcher, Marc Jeannerod Institute of Cognitive Sciences"
+            }
+        },
         "interview": [
             {
-                "question": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?",
-                "answer": "A feeling of interconnectedness; the sensation that, beyond single elements, their relationships are equally – if not more – important."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Un sentiment d'interconnexion ; la sensation que, au-delà des éléments individuels, leurs relations sont tout aussi — sinon plus — importantes.",
+                    "en": "A feeling of interconnectedness; the sensation that, beyond single elements, their relationships are equally – if not more – important.",
+                    "original": "en"
+                }
             },
             {
-                "question": "If this figure were a work of art, what artistic movement or artist would it remind you of?",
-                "answer": "I would say something in between realism – for the image depicts a real object, the brain – and constructivism, for the use of geometric shapes to convey a message."
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Je dirais quelque chose entre le réalisme — car l'image représente un objet réel, le cerveau — et le constructivisme, pour l'utilisation de formes géométriques pour transmettre un message.",
+                    "en": "I would say something in between realism – for the image depicts a real object, the brain – and constructivism, for the use of geometric shapes to convey a message.",
+                    "original": "en"
+                }
             },
             {
-                "question": "Which colors, shapes, or textures captivate you most in this visual?",
-                "answer": "The colors of each node (brain regions), which, despite being different from each other and “isolated”, they are nonetheless functionally connected by strong, red links."
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Les couleurs de chaque nœud (régions cérébrales) qui, malgré leurs différences et leur apparente isolation, sont néanmoins connectées fonctionnellement par des liens forts et rouges.",
+                    "en": "The colors of each node (brain regions), which, despite being different from each other and \"isolated\", they are nonetheless functionally connected by strong, red links.",
+                    "original": "en"
+                }
             },
             {
-                "question": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?",
-                "answer": "The image reminds me of depictions used to represent different kinds of networks, such as human social networks, the Internet, railroads, and so on, which all have in common the beautiful principle of being interconnected."
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Cette image me rappelle les représentations utilisées pour illustrer différents types de réseaux : réseaux sociaux humains, Internet, chemins de fer, etc., qui ont tous en commun le beau principe d'être interconnectés.",
+                    "en": "The image reminds me of depictions used to represent different kinds of networks, such as human social networks, the Internet, railroads, and so on, which all have in common the beautiful principle of being interconnected.",
+                    "original": "en"
+                }
             },
             {
-                "question": "Could this figure serve as a metaphor for the human experience more broadly? ?",
-                "answer": "Que notre réalité dépend de notre expérience, de ce qu’on veut voir et des outils qu’on a pour la voir"
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Que notre réalité dépend de notre expérience, de ce qu'on veut voir et des outils qu'on a pour la voir.",
+                    "en": "That our reality depends on our experience, on what we want to see, and on the tools we have to see it.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?",
-                "answer": "More than the result of a long effort – which definitely contributed –, the figure came from thinking about the state of things (data) from a different perspective; from “having the courage” of exploring different approaches than the usuals. "
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Davantage le résultat d'un long effort — qui a certainement contribué —, la figure est née d'une réflexion différente sur l'état des données ; du « courage » d'explorer des approches autres que les habituelles.",
+                    "en": "More than the result of a long effort – which definitely contributed –, the figure came from thinking about the state of things (data) from a different perspective; from \"having the courage\" of exploring different approaches than the usuals.",
+                    "original": "en"
+                }
             },
             {
-                "question": "What's the 'secret' or little anecdote behind this image that a scientific journal would never publish?",
-                "answer": "The fact that I had to, and probably will still have to, convince some colleagues that this is a sensible way of thinking about and represent my data."
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "Le fait que j'ai dû — et que je devrai probablement encore — convaincre certains collègues que c'est une manière sensée de penser et de représenter mes données.",
+                    "en": "The fact that I had to, and probably will still have to, convince some colleagues that this is a sensible way of thinking about and represent my data.",
+                    "original": "en"
+                }
             },
             {
-                "question": "Could you explain, as simply as possible, what scientific insight this figure highlights?",
-                "answer": "The figure depicts a functional connectome of a brain state in 10-month-old infants. In particular, the dots (nodes) are specific brain regions, while the links connecting them (edges) represent to what extent their activity was correlated during the perception of an event. "
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "La figure représente un connectome fonctionnel d'un état cérébral chez des nourrissons de 10 mois. Les points (nœuds) sont des régions cérébrales spécifiques, et les liens entre eux (arêtes) indiquent dans quelle mesure leurs activités étaient corrélées lors de la perception d'un événement.",
+                    "en": "The figure depicts a functional connectome of a brain state in 10-month-old infants. In particular, the dots (nodes) are specific brain regions, while the links connecting them (edges) represent to what extent their activity was correlated during the perception of an event.",
+                    "original": "en"
+                }
             },
             {
-                "question": "How important is what we're seeing here for our broader understanding of the brain?",
-                "answer": "The figure highlights that, beyond neural activity related to a single brain region, understanding functional integration between multiple areas is fundamental to enlighten how the brain processes information, including the infant brain."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "La figure illustre que, au-delà de l'activité neurale d'une seule région cérébrale, comprendre l'intégration fonctionnelle entre plusieurs zones est fondamental pour éclairer la manière dont le cerveau traite l'information — y compris le cerveau du nourrisson.",
+                    "en": "The figure highlights that, beyond neural activity related to a single brain region, understanding functional integration between multiple areas is fundamental to enlighten how the brain processes information, including the infant brain.",
+                    "original": "en"
+                }
             }
         ]
     },
     {
         "id": 4,
         "image": "images/gallery/delous.jpg",
-        "title": "Chouette, alors!",
-        "description": "Organoïde cortical.",
+        "title": { "fr": "Chouette, alors !", "en": "How Wonderful!" },
+        "description": {
+            "fr": "Organoïde cortical.",
+            "en": "Cortical organoid."
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Marion Delous",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Chercheuse, Centre de Recherche en Neurosciences de Lyon"
+            "role": {
+                "fr": "Chercheuse, Centre de Recherche en Neurosciences de Lyon",
+                "en": "Researcher, Lyon Neuroscience Research Center"
+            }
         },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "L’amusement d’un retour en enfance : cette image m’évoque les Barbapapa, personnages de livres et dessins animés pour enfants en forme de poire et aux grands yeux, de toutes les couleurs."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "L'amusement d'un retour en enfance : cette image m'évoque les Barbapapa, personnages de livres et dessins animés pour enfants en forme de poire et aux grands yeux, de toutes les couleurs.",
+                    "en": "The delight of a return to childhood: this image reminds me of the Barbapapas — pear-shaped, big-eyed, colorful characters from children's books and cartoons.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Cette image me renvoie au pop art, aux dessins aux traits simplifiés ou photographies recolorées à l’infini."
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Cette image me renvoie au pop art, aux dessins aux traits simplifiés ou photographies recolorées à l'infini.",
+                    "en": "This image takes me to pop art — simplified line drawings or endlessly recolored photographs.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Les formes arrondies avec des couleurs définies pour chacune d’elles."
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Les formes arrondies avec des couleurs définies pour chacune d'elles.",
+                    "en": "The rounded shapes, each with their own distinct color.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Comme je disais précédemment, cette image m’évoque les Barbapapa. On peut y voir aussi une chouette. "
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Comme je disais précédemment, cette image m'évoque les Barbapapa. On peut y voir aussi une chouette.",
+                    "en": "As I said, this image reminds me of the Barbapapas. You can also see an owl in it.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "La chouette représente la sagesse et la connaissance. Par ses grands yeux ronds, elle exprime la curiosité et l'intérêt pour les mystères et secrets en tout genre. Finalement, ça en fait une mascotte pour les scientifiques… mieux que Barbapapa !"
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "La chouette représente la sagesse et la connaissance. Par ses grands yeux ronds, elle exprime la curiosité et l'intérêt pour les mystères et secrets en tout genre. Finalement, ça en fait une mascotte pour les scientifiques… mieux que Barbapapa !",
+                    "en": "The owl represents wisdom and knowledge. With its large round eyes, it expresses curiosity and a fascination for mysteries and secrets of all kinds. In the end, it makes quite the mascot for scientists… better than Barbapapa!",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Cette image est celle d’une étudiante en thèse, Justine Guguin, qui a pu la capturer après de nombreux efforts pour cultiver ces structures qu’on appelle organoides. Chaque organoide a une forme propre, et celui-ci, dans cette coupe précise, était très évocatrice. Je dirais donc que cette image a procuré un émerveillement, une satisfaction, un plaisir à réussir une expérience longue et exigeante !"
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Cette image est celle d'une étudiante en thèse, Justine Guguin, qui a pu la capturer après de nombreux efforts pour cultiver ces structures qu'on appelle organoïdes. Chaque organoïde a une forme propre, et celui-ci, dans cette coupe précise, était très évocateur. Je dirais donc que cette image a procuré un émerveillement, une satisfaction, un plaisir à réussir une expérience longue et exigeante !",
+                    "en": "This image was captured by a PhD student, Justine Guguin, after many efforts to grow these structures called organoids. Each organoid has its own shape, and this particular one, in this precise cross-section, was very evocative. I would say this image brought a sense of wonder, satisfaction, and pleasure from succeeding in a long and demanding experiment!",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "Il se trouve que cette image a fait la couverture du journal dans lequel l’article relatant le travail autour de ces organoides a été publié. Nous n’avions pas osé mettre cette image dans l’article, et elle aura quand même eu sa place en couverture ! "
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "Il se trouve que cette image a fait la couverture du journal dans lequel l'article relatant le travail autour de ces organoïdes a été publié. Nous n'avions pas osé mettre cette image dans l'article, et elle aura quand même eu sa place en couverture !",
+                    "en": "This image ended up on the cover of the journal in which the article describing the work on these organoids was published. We hadn't dared include it in the article itself, yet it still made it to the cover!",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Nous voyons là une tranche d’organoide cortical, structure cellulaire en 3D qui s’auto-assemble à partir de cellules souches que l’on a guidées vers une différenciation neurale. Les yeux sont des rosettes neurales, dont l’organisation est proche du tube neural aux étapes très précoces du développement du cerveau humain. "
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "Nous voyons là une tranche d'organoïde cortical, structure cellulaire en 3D qui s'auto-assemble à partir de cellules souches que l'on a guidées vers une différenciation neurale. Les yeux sont des rosettes neurales, dont l'organisation est proche du tube neural aux étapes très précoces du développement du cerveau humain.",
+                    "en": "We are looking at a slice of a cortical organoid — a 3D cellular structure that self-assembles from stem cells guided toward neural differentiation. The 'eyes' are neural rosettes, whose organization resembles the neural tube at the very earliest stages of human brain development.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Notre projet d’étude porte sur une maladie génétique rare qui se manifeste, dans les cas les plus graves, par une microcéphalie et un retard de croissance. Notre équipe a découvert le gène causal et dès lors, elle cherche à comprendre les mécanismes physiopathologiques qui mènent aux anomalies neurodéveloppementales. Grâce aux modèles des organoides corticaux, nous avons observé que les mutations du gène causal entrainent un défaut d’organisation des cellules en rosettes neurales."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Notre projet d'étude porte sur une maladie génétique rare qui se manifeste, dans les cas les plus graves, par une microcéphalie et un retard de croissance. Notre équipe a découvert le gène causal et cherche à comprendre les mécanismes physiopathologiques qui mènent aux anomalies neurodéveloppementales. Grâce aux modèles des organoïdes corticaux, nous avons observé que les mutations du gène causal entraînent un défaut d'organisation des cellules en rosettes neurales.",
+                    "en": "Our study focuses on a rare genetic disease that manifests, in the most severe cases, as microcephaly and growth retardation. Our team has identified the causative gene and is working to understand the pathophysiological mechanisms leading to neurodevelopmental anomalies. Using cortical organoid models, we observed that mutations in the causative gene lead to a defect in the organization of cells into neural rosettes.",
+                    "original": "fr"
+                }
             }
         ]
     },
     {
         "id": 5,
         "image": "images/gallery/manel.png",
-        "title": "l'Espoir d'un retour possible",
-        "description": "IRM fonctionnelle chez les patients atteints de boulimie nerveuse.",
+        "title": { "fr": "L'espoir d'un retour possible", "en": "The Hope of a Possible Return" },
+        "description": {
+            "fr": "IRM fonctionnelle chez les patients atteints de boulimie nerveuse.",
+            "en": "Functional MRI in patients with bulimia nervosa."
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Manel Merabet Zennadi",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon"
+            "role": {
+                "fr": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon",
+                "en": "Post-doctoral researcher, Lyon Neuroscience Research Center"
+            }
         },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Cette image m’évoque du dynamisme. Les différentes taches colorées, superposées à divers endroits du cerveau, donnent l’impression d’un tableau en mouvement, presque vivant."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Cette image m'évoque du dynamisme. Les différentes taches colorées, superposées à divers endroits du cerveau, donnent l'impression d'un tableau en mouvement, presque vivant.",
+                    "en": "This image evokes dynamism for me. The various colored patches, overlaid at different points on the brain, give the impression of a painting in motion — almost alive.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Si cette figure était une œuvre d’art, elle me ferait penser à l’expressionnisme abstrait. Les taches lumineuses, dispersées sur le fond sobre et structuré, rappellent des projections spontanées observées sur les peintures de ce courant : une impression d’énergie, de mouvement et d’activité presque chaotique, mais pourtant organisée. "
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Si cette figure était une œuvre d'art, elle me ferait penser à l'expressionnisme abstrait. Les taches lumineuses, dispersées sur le fond sobre et structuré, rappellent des projections spontanées observées sur les peintures de ce courant : une impression d'énergie, de mouvement et d'activité presque chaotique, mais pourtant organisée.",
+                    "en": "If this figure were a work of art, it would remind me of abstract expressionism. The luminous patches scattered across the sober, structured background recall the spontaneous projections seen in paintings of that movement — an impression of energy, motion, and almost chaotic yet organized activity.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Ce qui me captive le plus, ce sont les formes jaunes et orangées qui, à mes yeux, donnent véritablement vie à cette image."
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Ce qui me captive le plus, ce sont les formes jaunes et orangées qui, à mes yeux, donnent véritablement vie à cette image.",
+                    "en": "What captivates me most are the yellow and orange shapes, which, to my eyes, truly bring this image to life.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Cette image m’évoque le jeu de la marelle : une progression de case en case, comme une invitation à sauter vers la suivante."
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Cette image m'évoque le jeu de la marelle : une progression de case en case, comme une invitation à sauter vers la suivante.",
+                    "en": "This image evokes hopscotch for me: a progression from square to square, like an invitation to jump to the next one.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Si cette figure était une métaphore, elle représenterait le retour progressif de l’équilibre intérieur. La présence de la sérotonine, et on pourrait dire celle du bonheur, deviendrait un signe discret d’une guérison à venir. Être en bonne santé, c’est aussi cultiver ce qui nous rend heureux."
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Si cette figure était une métaphore, elle représenterait le retour progressif de l'équilibre intérieur. La présence de la sérotonine, et on pourrait dire celle du bonheur, deviendrait un signe discret d'une guérison à venir. Être en bonne santé, c'est aussi cultiver ce qui nous rend heureux.",
+                    "en": "If this figure were a metaphor, it would represent the gradual return of inner balance. The presence of serotonin — and one might say, of happiness — becomes a quiet sign of healing to come. Being healthy also means nurturing what makes us happy.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Ce fut le fruit d’un long processus. Pour obtenir cette j’ai dû suivre plusieurs étapes de prétraitement, de recalage d’images IRM et TEP (tomographie par émission de positons), puis des analyses statistiques approfondies, en moyennant l’ensemble des données, afin d’explorer le lien entre l’activité cérébrale sérotoninergique et la réponse au traitement dans la boulimie."
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Ce fut le fruit d'un long processus. Pour obtenir cette image, j'ai dû suivre plusieurs étapes de prétraitement, de recalage d'images IRM et TEP (tomographie par émission de positons), puis des analyses statistiques approfondies, en moyennant l'ensemble des données, afin d'explorer le lien entre l'activité cérébrale sérotoninergique et la réponse au traitement dans la boulimie.",
+                    "en": "It was the result of a long process. To obtain this image, I had to follow several preprocessing steps, co-register MRI and PET (positron emission tomography) images, and then perform in-depth statistical analyses, averaging across all the data, in order to explore the link between serotonergic brain activity and treatment response in bulimia.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "Le secret derrière cette image, ce sont les nombreux allers-retours entre Saint-Étienne et Lyon. La collaboration entre les deux villes dans le cadre de ce projet, impliquait des trajets et des arrêts à la boulangerie de la gare fréquents."
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "Le secret derrière cette image, ce sont les nombreux allers-retours entre Saint-Étienne et Lyon. La collaboration entre les deux villes, dans le cadre de ce projet, impliquait des trajets et des arrêts à la boulangerie de la gare fréquents.",
+                    "en": "The secret behind this image is the many back-and-forth trips between Saint-Étienne and Lyon. The collaboration between the two cities for this project involved frequent journeys — and regular stops at the station bakery.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "La figure montre l’analyse de l’activité de la sérotonine chez des patients atteints de boulimie nerveuse. Elle indique que plus cette activité est élevée avant le début du traitement dans les régions du cerveau en jaune (notamment liées à la synthèse de la sérotonine), meilleure est la réponse clinique. "
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "La figure montre l'analyse de l'activité de la sérotonine chez des patients atteints de boulimie nerveuse. Elle indique que plus cette activité est élevée avant le début du traitement dans les régions du cerveau en jaune (notamment liées à la synthèse de la sérotonine), meilleure est la réponse clinique.",
+                    "en": "The figure shows an analysis of serotonin activity in patients with bulimia nervosa. It indicates that the higher this activity before the start of treatment — in the yellow brain regions (notably those linked to serotonin synthesis) — the better the clinical response.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Cette figure montre que, contrairement à ce que l’on pourrait penser, les antidépresseurs inhibiteurs de la recapture de la sérotonine (souvent prescrits dans les cas de boulimie sévère) ne sont efficaces que si les patients présentent un certain niveau d’activité sérotoninergique. Chez les patients dont l’activité est trop faible dès le départ, ces médicaments seraient moins efficaces en première intention. Il s’agit d’un résultat important, qui pourrait permettre de gagner du temps dans la prise en charge en orientant ces patients vers d’autres options thérapeutiques."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Cette figure montre que, contrairement à ce que l'on pourrait penser, les antidépresseurs inhibiteurs de la recapture de la sérotonine (souvent prescrits dans les cas de boulimie sévère) ne sont efficaces que si les patients présentent un certain niveau d'activité sérotoninergique. Chez les patients dont l'activité est trop faible dès le départ, ces médicaments seraient moins efficaces en première intention. Il s'agit d'un résultat important, qui pourrait permettre de gagner du temps dans la prise en charge en orientant ces patients vers d'autres options thérapeutiques.",
+                    "en": "This figure shows that, contrary to what one might expect, serotonin reuptake inhibitor antidepressants (often prescribed in severe cases of bulimia) are only effective if patients already have a certain level of serotonergic activity. In patients whose activity is too low from the outset, these medications would be less effective as a first-line treatment. This is an important finding that could help save time in care by directing these patients toward other therapeutic options.",
+                    "original": "fr"
+                }
             }
         ]
     },
     {
         "id": 6,
         "image": "/images/gallery/Schreiweis_Figure.png",
-        "title": "Il y a un temps pour tout...",
-        "description": "",
+        "title": { "fr": "Il y a un temps pour tout…", "en": "There Is a Time for Everything…" },
+        "description": {
+            "fr": "",
+            "en": ""
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Christiane Schreiweis",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon"
+            "role": {
+                "fr": "Post-doctorante, Centre de Recherche en Neurosciences de Lyon",
+                "en": "Post-doctoral researcher, Lyon Neuroscience Research Center"
+            }
         },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "L’image évoque pour moi une course — un déplacement du rouge vers le bleu — captée par des instantanés lumineux successifs. On ne voit pas le mouvement continu, seulement des fragments du trajet. La trajectoire inférieure semble avancer plus vite, comme si les intervalles entre les captures s’élargissaient, suggérant une accélération vers un point commun. Cela me fait penser à la parabole de la Reine Rouge dans Through the Looking-Glass de Lewis Carroll : il faut courir sans cesse pour rester au même endroit. L’image évoque ainsi une dynamique inégale, une tension permanente — une course où personne ne gagne vraiment, mais où il faut continuer à avancer pour simplement exister."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "L'image évoque pour moi une course — un déplacement du rouge vers le bleu — captée par des instantanés lumineux successifs. On ne voit pas le mouvement continu, seulement des fragments du trajet. La trajectoire inférieure semble avancer plus vite, comme si les intervalles entre les captures s'élargissaient, suggérant une accélération vers un point commun. Cela me fait penser à la parabole de la Reine Rouge dans Through the Looking-Glass de Lewis Carroll : il faut courir sans cesse pour rester au même endroit. L'image évoque ainsi une dynamique inégale, une tension permanente — une course où personne ne gagne vraiment, mais où il faut continuer à avancer pour simplement exister.",
+                    "en": "The image evokes for me a race — a progression from red to blue — captured through successive flashes of light. We don't see the continuous movement, only fragments of the journey. The lower trajectory seems to move faster, as if the intervals between captures are widening, suggesting an acceleration toward a common point. It makes me think of the Red Queen's parable in Lewis Carroll's Through the Looking-Glass: you have to keep running just to stay in place. The image thus evokes an uneven dynamic, a constant tension — a race where no one truly wins, but where you must keep moving forward simply to exist.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Cette figure me fait penser, dans une certaine mesure, à l’univers de Andy Warhol. L’alignement rigoureux d’entités très similaires rappelle ses répétitions sérielles, presque mécaniques. L’ensemble paraît volontairement plat, bidimensionnel, comme une surface qui se donne immédiatement au regard. Et pourtant, cette apparente simplicité invite à chercher une autre dimension — un sens caché derrière la répétition, une dynamique sous-jacente derrière la façade uniforme."
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Cette figure me fait penser, dans une certaine mesure, à l'univers de Andy Warhol. L'alignement rigoureux d'entités très similaires rappelle ses répétitions sérielles, presque mécaniques. L'ensemble paraît volontairement plat, bidimensionnel, comme une surface qui se donne immédiatement au regard. Et pourtant, cette apparente simplicité invite à chercher une autre dimension — un sens caché derrière la répétition, une dynamique sous-jacente derrière la façade uniforme.",
+                    "en": "This figure reminds me, to some extent, of Andy Warhol's world. The rigorous alignment of very similar entities recalls his serial, almost mechanical repetitions. The whole seems intentionally flat and two-dimensional, like a surface that presents itself immediately to the eye. And yet, this apparent simplicity invites us to seek another dimension — a hidden meaning behind the repetition, an underlying dynamic behind the uniform facade.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Ce qui me captive le plus, c’est le contraste entre la régularité des formes et l’irrégularité de leur positionnement sur l’échelle. Les formes semblent obéir à une logique répétitive, presque stable, tandis que leur alignement introduit une variation inattendue. Cette tension crée l’impression qu’un facteur caché agit en arrière-plan, comme une force invisible qui module le rythme et perturbe l’apparente uniformité. Il en résulte une sensation de mouvement implicite — un ordre sous-jacent qui ne se révèle qu’à travers ses écarts."
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Ce qui me captive le plus, c'est le contraste entre la régularité des formes et l'irrégularité de leur positionnement sur l'échelle. Les formes semblent obéir à une logique répétitive, presque stable, tandis que leur alignement introduit une variation inattendue. Cette tension crée l'impression qu'un facteur caché agit en arrière-plan, comme une force invisible qui module le rythme et perturbe l'apparente uniformité. Il en résulte une sensation de mouvement implicite — un ordre sous-jacent qui ne se révèle qu'à travers ses écarts.",
+                    "en": "What captivates me most is the contrast between the regularity of the shapes and the irregularity of their positioning on the scale. The shapes seem to follow a repetitive, almost stable logic, while their alignment introduces an unexpected variation. This tension creates the impression that a hidden factor is at work in the background — an invisible force modulating the rhythm and disturbing the apparent uniformity. The result is a sense of implicit movement — an underlying order that only reveals itself through its deviations.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "En dehors du laboratoire, cette image me fait penser à deux tapis roulants fonctionnant en parallèle. Ils avancent côte à côte, selon une trajectoire similaire, mais pas nécessairement au même rythme. Cette association évoque l’idée de trajectoires synchrones en apparence, mais potentiellement différenciées dans leur vitesse ou leur dynamique — comme deux flux qui coexistent sans être parfaitement superposables."
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "En dehors du laboratoire, cette image me fait penser à deux tapis roulants fonctionnant en parallèle. Ils avancent côte à côte, selon une trajectoire similaire, mais pas nécessairement au même rythme. Cette association évoque l'idée de trajectoires synchrones en apparence, mais potentiellement différenciées dans leur vitesse ou leur dynamique — comme deux flux qui coexistent sans être parfaitement superposables.",
+                    "en": "Outside the lab, this image makes me think of two conveyor belts running in parallel. They move side by side along a similar path, but not necessarily at the same speed. This association evokes the idea of trajectories that appear synchronized, but are potentially differentiated in their speed or dynamics — like two flows that coexist without perfectly overlapping.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Cette figure pourrait nous rappeler l’importance de reconnaître et d’accepter les différences individuelles. Dans la vie quotidienne — surtout en période d’incertitude et de pression temporelle — nous avons tendance à recourir à des schémas généraux et à des attentes stéréotypées sur la manière dont « quelqu’un est censé être ». Elle invite au contraire à prêter attention aux nuances subtiles de nos comportements, de nos perceptions, de nos façons de penser et de résoudre les problèmes. Cette diversité nous rend complémentaires et constitue une richesse essentielle pour les équipes comme pour la société, en appelant à l’inclusion de ces précieuses variations."
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Cette figure pourrait nous rappeler l'importance de reconnaître et d'accepter les différences individuelles. Dans la vie quotidienne — surtout en période d'incertitude et de pression temporelle — nous avons tendance à recourir à des schémas généraux et à des attentes stéréotypées sur la manière dont « quelqu'un est censé être ». Elle invite au contraire à prêter attention aux nuances subtiles de nos comportements, de nos perceptions, de nos façons de penser et de résoudre les problèmes. Cette diversité nous rend complémentaires et constitue une richesse essentielle pour les équipes comme pour la société.",
+                    "en": "This figure could remind us of the importance of recognizing and accepting individual differences. In daily life — especially in times of uncertainty and time pressure — we tend to rely on general patterns and stereotyped expectations about how 'someone is supposed to be.' Instead, it invites us to pay attention to the subtle nuances in our behaviors, perceptions, ways of thinking, and problem-solving. This diversity makes us complementary and is an essential richness for teams and society alike.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Cette figure est très symbolique pour moi. Elle illustre une hypothèse que j’ai formulée pendant ma thèse, à une époque où elle paraissait assez inattendue dans le champ de recherche. D’une certaine manière, elle est née d’une question qui m’habite depuis l’enfance et qui a progressivement guidé mon parcours scientifique. Aujourd’hui, cette hypothèse prend forme à travers mon propre projet de recherche, qui est sur le point de commencer — comme si un long cheminement trouvait enfin son point d’aboutissement."
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Cette figure est très symbolique pour moi. Elle illustre une hypothèse que j'ai formulée pendant ma thèse, à une époque où elle paraissait assez inattendue dans le champ de recherche. D'une certaine manière, elle est née d'une question qui m'habite depuis l'enfance et qui a progressivement guidé mon parcours scientifique. Aujourd'hui, cette hypothèse prend forme à travers mon propre projet de recherche, qui est sur le point de commencer — comme si un long cheminement trouvait enfin son point d'aboutissement.",
+                    "en": "This figure is very symbolic for me. It illustrates a hypothesis I formulated during my PhD, at a time when it seemed rather unexpected in the field. In a way, it was born from a question that has stayed with me since childhood and has gradually guided my scientific journey. Today, this hypothesis is taking shape through my own research project, which is about to begin — as if a long path were finally reaching its destination.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "Comme beaucoup de découvertes scientifiques, cette hypothèse est le fruit d’un mélange subtil de sérendipité, d’observations minutieuses, d’un long cheminement de réflexion et d’une grande persévérance."
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "Comme beaucoup de découvertes scientifiques, cette hypothèse est le fruit d'un mélange subtil de sérendipité, d'observations minutieuses, d'un long cheminement de réflexion et d'une grande persévérance.",
+                    "en": "Like many scientific discoveries, this hypothesis is the result of a subtle mix of serendipity, careful observation, a long process of reflection, and great perseverance.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "Cette figure illustre une idée simple : une petite différence génétique propre à l’être humain pourrait nous aider à apprendre plus efficacement à travers d’une automatisation plus vite. Le gène Foxp2 joue un rôle essentiel dans le développement du langage ; il a aussi évolué de manière particulière chez l’être humain — et aussi chez quelques espèces capables d’apprentissages vocaux, comme les oiseaux chanteurs ou les dauphins. Dans cette image, je propose que la version humaine de Foxp2 accélère le passage d’un apprentissage très conscient, qui demande beaucoup d’attention, vers une maîtrise plus automatique, qui devient presque naturelle et qui est probablement necessaire pour pouvoir apprendre du langage. Les couleurs symbolisent ce changement dans le cerveau : au début, ce sont des régions impliquées dans la réflexion et l’apprentissage qui sont actives (en rouge). Puis, avec l’entraînement, l’activité se déplace vers des régions liées aux automatismes et aux actions bien maîtrisées (en bleu). La particularité montrée ici est que, dans un cerveau “humanisé” pour Foxp2 (partie bas de l’illustration), cette transition se fait plus rapidement que dans un cerveau qui possède la version non humaine du gène (partie haut de l’illustration)."
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "Cette figure illustre une idée simple : une petite différence génétique propre à l'être humain pourrait nous aider à apprendre plus efficacement grâce à une automatisation plus rapide. Le gène Foxp2 joue un rôle essentiel dans le développement du langage ; il a aussi évolué de manière particulière chez l'être humain — et chez quelques espèces capables d'apprentissages vocaux, comme les oiseaux chanteurs ou les dauphins. Dans cette image, je propose que la version humaine de Foxp2 accélère le passage d'un apprentissage très conscient vers une maîtrise plus automatique. Les couleurs symbolisent ce changement dans le cerveau : au début, des régions impliquées dans la réflexion et l'apprentissage sont actives (en rouge) ; puis, avec l'entraînement, l'activité se déplace vers des régions liées aux automatismes (en bleu). Dans un cerveau « humanisé » pour Foxp2 (partie basse), cette transition se fait plus rapidement que dans un cerveau qui possède la version non humaine du gène (partie haute).",
+                    "en": "This figure illustrates a simple idea: a small genetic difference unique to humans could help us learn more efficiently through faster automatization. The Foxp2 gene plays a key role in language development; it has also evolved in a particular way in humans — and in a few species capable of vocal learning, such as songbirds or dolphins. In this figure, I propose that the human version of Foxp2 accelerates the shift from very conscious learning to more automatic mastery. The colors symbolize this change in the brain: initially, regions involved in reflection and learning are active (red); then, with training, activity shifts toward regions linked to automatized actions (blue). In a brain 'humanized' for Foxp2 (bottom), this transition occurs faster than in a brain carrying the non-human version of the gene (top).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Ce que nous voyons ici a plusieurs implications importantes pour notre compréhension du cerveau. D’abord, cela nous rappelle que le cerveau humain possède des particularités qui ne sont pas toujours présentes dans les modèles animaux que nous utilisons en recherche. Il est donc essentiel de tenir compte de cette spécificité humaine et d’inclure une dimension évolutive dans notre recherche. Ensuite, cette image montre qu’une fonction cérébrale ne repose presque jamais sur une seule région ou un seul circuit. Elle dépend plutôt de l’équilibre dynamique entre plusieurs régions complémentaires qui travaillent ensemble. Cela rend le système plus complexe, mais aussi plus cohérent d’un point de vue biologique et évolutif. Enfin, cette figure illustre la puissance — et la fragilité — du vivant. Une modification génétique minime peut profondément influencer la manière dont nous apprenons, pensons ou transformons une information en action. Cela peut représenter un avantage, par exemple pour l’apprentissage de capacités complexes comme le langage. Mais cela rappelle aussi que les changements biologiques minimes peuvent être liés à certaines vulnérabilités de notre santé mentale."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Ce que nous voyons ici a plusieurs implications importantes. D'abord, cela nous rappelle que le cerveau humain possède des particularités absentes des modèles animaux — il est donc essentiel d'inclure une dimension évolutive dans notre recherche. Ensuite, cette image montre qu'une fonction cérébrale ne repose presque jamais sur une seule région : elle dépend de l'équilibre dynamique entre plusieurs régions complémentaires. Enfin, cette figure illustre la puissance — et la fragilité — du vivant : une modification génétique minime peut profondément influencer la manière dont nous apprenons, mais peut aussi être liée à certaines vulnérabilités de notre santé mentale.",
+                    "en": "What we see here has several important implications. First, it reminds us that the human brain has particularities not always present in animal models — it is therefore essential to include an evolutionary dimension in our research. Second, this image shows that a brain function almost never relies on a single region: it depends on the dynamic balance between multiple complementary regions. Finally, this figure illustrates the power — and fragility — of living systems: a minimal genetic modification can profoundly influence how we learn, but may also be linked to certain vulnerabilities in our mental health.",
+                    "original": "fr"
+                }
             }
-        ]     
-    }, 
+        ]
+    },
     {
         "id": 7,
         "image": "images/gallery/tamara.png",
-        "title": "Révélation",
-        "description": "Marquage du claustrum par immunofluorescence",
+        "title": { "fr": "Révélation", "en": "Revelation" },
+        "description": {
+            "fr": "Marquage du claustrum par immunofluorescence",
+            "en": "Claustrum labeling by immunofluorescence"
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Tamara Basthard-Bogain",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Doctorante, Centre de Recherche en Neurosciences de Lyon"
-          
+            "role": {
+                "fr": "Doctorante, Centre de Recherche en Neurosciences de Lyon",
+                "en": "PhD student, Lyon Neuroscience Research Center"
+            }
         },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Une émotion explosive et douce à la fois : je trouve le mélange de couleur au centre de l’image explosif ; la douceur se fait ressentir par la couleur violette du reste de l’image, plutôt uniforme. "
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Une émotion explosive et douce à la fois : je trouve le mélange de couleurs au centre de l'image explosif ; la douceur se fait ressentir par la couleur violette du reste de l'image, plutôt uniforme.",
+                    "en": "An emotion that is both explosive and gentle: I find the color mixture at the center of the image explosive; the gentleness comes through in the purple hue that fills the rest of the image, relatively uniform.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Au courant abstrait, par les couleurs et le fait qu’il n’y ait pas vraiment de forme précise. A ce zoom, on a du mal a savoir ce qui est représenté, ce qui rend ca assez abstrait. "
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Au courant abstrait, par les couleurs et le fait qu'il n'y ait pas vraiment de forme précise. À ce zoom, on a du mal à savoir ce qui est représenté, ce qui rend ça assez abstrait.",
+                    "en": "Abstract art, for the colors and the lack of any precise shape. At this zoom level, it is hard to tell what is being represented, which makes it quite abstract.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Le centre de l’image captive le regard, par son mélange de couleur vert, bleu, rouge et violet, donnant même des touches de blanc. "
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Le centre de l'image captive le regard, par son mélange de couleurs vert, bleu, rouge et violet, donnant même des touches de blanc.",
+                    "en": "The center of the image draws the eye, with its mix of green, blue, red, and purple, even producing touches of white.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Cette image me rappelle un feu d’artifice, où toutes les couleurs des différents lancés se mélangent dans un fond uniforme, le ciel (ici représenté par le reste de l’image en violet)."
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Cette image me rappelle un feu d'artifice, où toutes les couleurs des différents lancés se mélangent dans un fond uniforme, le ciel (ici représenté par le reste de l'image en violet).",
+                    "en": "This image reminds me of a fireworks display, where all the colors from the different bursts blend against a uniform backdrop — the sky (here represented by the purple rest of the image).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Le centre dense et multicolore peut évoquer la richesse et la diversité de l’humanité (émotions, pensées, identités), tandis que le fond uniforme suggère le cadre parfois silencieux ou indifférencié, dans lequel nous prenons place."
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Le centre dense et multicolore peut évoquer la richesse et la diversité de l'humanité (émotions, pensées, identités), tandis que le fond uniforme suggère le cadre parfois silencieux ou indifférencié dans lequel nous prenons place.",
+                    "en": "The dense, multicolored center can evoke the richness and diversity of humanity — emotions, thoughts, identities — while the uniform background suggests the sometimes silent or undifferentiated framework within which we find our place.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": " J’ai réalisé une imagerie en microscopie confocale d’un hémisphère cérébral entier de souris, nécessitant une acquisition prolongée afin de couvrir l’ensemble de l’hémisphère et d’inclure précisément la zone d’intérêt."
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "J'ai réalisé une imagerie en microscopie confocale d'un hémisphère cérébral entier de souris, nécessitant une acquisition prolongée afin de couvrir l'ensemble de l'hémisphère et d'inclure précisément la zone d'intérêt.",
+                    "en": "I performed confocal microscopy imaging of an entire mouse cerebral hemisphere, requiring a prolonged acquisition to cover the whole hemisphere and precisely include the region of interest.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "L’image ne montre pas exactement ce qu’on veut. Le fond violet ne devrait pas être autant marqué et plus spécifique dans le cerveau dont dans la zone de colocalisation de la couleur. "
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "L'image ne montre pas exactement ce qu'on veut. Le fond violet ne devrait pas être autant marqué et devrait être plus spécifique dans la zone de colocalisation des couleurs.",
+                    "en": "The image doesn't show exactly what we want. The purple background should not be so strongly labeled — it should be more specific to the color colocalization zone.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": "L’objectif de cette figure est de vérifier la colocalisation de cellules au sein du claustrum (zone colorée) après l’injection préalable de virus lors d’une intervention chirurgicale. Chaque couleur correspond à un marquage distinct ou à l’expression d’une molécule différente. Plus précisément, nous cherchons à confirmer que les deux virus injectés, représentés en rouge et en vert, expriment bien leurs transgènes dans le claustrum. Pour valider cette localisation, nous analysons leur colocalisation avec deux marqueurs de référence : un marqueur anatomique du claustrum (en bleu) et un marqueur moléculaire spécifique, révélé par immunohistochimie (en violet)."
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "L'objectif de cette figure est de vérifier la colocalisation de cellules au sein du claustrum (zone colorée) après l'injection préalable de virus lors d'une intervention chirurgicale. Chaque couleur correspond à un marquage distinct ou à l'expression d'une molécule différente. Plus précisément, nous cherchons à confirmer que les deux virus injectés, représentés en rouge et en vert, expriment bien leurs transgènes dans le claustrum. Pour valider cette localisation, nous analysons leur colocalisation avec deux marqueurs de référence : un marqueur anatomique du claustrum (en bleu) et un marqueur moléculaire spécifique, révélé par immunohistochimie (en violet).",
+                    "en": "The goal of this figure is to verify the colocalization of cells within the claustrum (the colored zone) following prior viral injection during surgery. Each color corresponds to a distinct label or the expression of a different molecule. More specifically, we aim to confirm that the two injected viruses — represented in red and green — are indeed expressing their transgenes in the claustrum. To validate this localization, we analyze their colocalization with two reference markers: an anatomical marker of the claustrum (blue) and a specific molecular marker revealed by immunohistochemistry (purple).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
-                "answer": "Le but ici est de pouvoir manipuler le claustrum afin de comprendre son rôle lors des crises d’épilepsie, dans le but de limiter la propagation des crises ainsi que leur généralisation. Cela nous permettra de mieux comprendre son implication au cours de la crise, de mieux caractériser son réseau car c’est une structure encore peu étudiée, et à terme, de potentiellement mettre en évidence son rôle thérapeutique dans l’épilepsie."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Le but ici est de pouvoir manipuler le claustrum afin de comprendre son rôle lors des crises d'épilepsie, dans le but de limiter la propagation des crises ainsi que leur généralisation. Cela nous permettra de mieux comprendre son implication au cours de la crise, de mieux caractériser son réseau — car c'est une structure encore peu étudiée —, et à terme, de potentiellement mettre en évidence son rôle thérapeutique dans l'épilepsie.",
+                    "en": "The goal here is to manipulate the claustrum in order to understand its role during epileptic seizures, with the aim of limiting seizure propagation and generalization. This will allow us to better understand its involvement during a seizure, to better characterize its network — as it remains a poorly studied structure — and ultimately to potentially uncover its therapeutic role in epilepsy.",
+                    "original": "fr"
+                }
             }
-        ]     
+        ]
     },
     {
         "id": 8,
         "image": "images/gallery/moreau_simul_2.png",
-        "title": "Émergence",
-        "description": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
+        "title": { "fr": "Émergence", "en": "Emergence" },
+        "description": {
+            "fr": "Enregistrement magnétoencéphalographique montrant l'activité cérébrale.",
+            "en": "Magnetoencephalographic recording showing brain activity."
+        },
         "articleLink": "#",
         "articleLabel": "",
         "researcher": {
             "name": "Quentin Moreau",
             "photo": "images/researchers/placeholder.jpg",
-            "role": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod"
+            "role": {
+                "fr": "Post-doctorant, Institut des Sciences Cognitives Marc Jeannerod",
+                "en": "Post-doctoral researcher, Marc Jeannerod Institute of Cognitive Sciences"
+            }
         },
         "interview": [
             {
-                "question": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
-                "answer": "Une sensation de dispersion, comme si l'on observait un système en chaotique, puis soudain, un changement d'état rapide, organisé, une transition brutale, avant un retour vers l’aléatoire."
+                "question": {
+                    "fr": "Quelle est la première émotion ou sensation que cette image provoque chez vous ?",
+                    "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
+                },
+                "answer": {
+                    "fr": "Une sensation de dispersion, comme si l'on observait un système chaotique, puis soudain, un changement d'état rapide et organisé, une transition brutale, avant un retour vers l'aléatoire.",
+                    "en": "A sensation of dispersion, as if observing a system in chaos — then suddenly, a rapid, organized state change, an abrupt transition, before a return to randomness.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
-                "answer": "Un mélange de dripping façon Pollock pour la partie bruitée, avec comme des éclaboussures aléatoires ; et d'impressionnisme pour la partie organisée, où l’apparition de bleu et de rouge est intense mais sans contours nets."
+                "question": {
+                    "fr": "Si cette figure était une œuvre d'art, à quel courant artistique ou à quel artiste vous ferait-elle penser ?",
+                    "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
+                },
+                "answer": {
+                    "fr": "Un mélange de dripping façon Pollock pour la partie bruitée, avec des éclaboussures aléatoires ; et d'impressionnisme pour la partie organisée, où l'apparition de bleu et de rouge est intense mais sans contours nets.",
+                    "en": "A mix of Pollock-style dripping for the noisy part — random splashes — and impressionism for the organized section, where the appearance of blue and red is intense but without sharp outlines.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
-                "answer": "Ces deux bandes bleue et rouge, avec leur texture tissée. Elles ne sont pas uniformes, on voit comme des fils, et c'est cette imperfection qui capte le regard."
+                "question": {
+                    "fr": "Quelles couleurs, formes ou textures vous captivent le plus dans ce visuel ?",
+                    "en": "Which colors, shapes, or textures captivate you most in this visual?"
+                },
+                "answer": {
+                    "fr": "Ces deux bandes bleue et rouge, avec leur texture tissée. Elles ne sont pas uniformes, on voit comme des fils, et c'est cette imperfection qui capte le regard.",
+                    "en": "Those two bands of blue and red, with their woven texture. They are not uniform — you can see something like threads — and it is precisely this imperfection that catches the eye.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
-                "answer": "Ça me fait penser à la surface de l'eau, d’abord calme puis beaucoup plus ample comme lorsque qu’un caillou vient d’être jeter"
+                "question": {
+                    "fr": "À quoi cette image vous fait-elle penser en dehors du laboratoire ? Évoque-t-elle un souvenir, un paysage familier ou un objet du quotidien ?",
+                    "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
+                },
+                "answer": {
+                    "fr": "Ça me fait penser à la surface de l'eau, d'abord calme puis beaucoup plus ample, comme lorsqu'un caillou vient d'être jeté.",
+                    "en": "It makes me think of the surface of water — at first calm, then much more agitated, like when a stone has just been thrown in.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Cette figure pourrait-elle illustrer une métaphore à l’expérience humaine en général ?",
-                "answer": "Cette figure met en avant les réponses cérébrales lorsque que l’on se trompe, alors peut-être une métaphore de notre rapport à l'erreur. On voit ici qu'elle génère énormément d'énergie : cette intense vague bleue et rouge. Mais elle est passagère, et le système revient vite à son état de base. L'erreur n'est pas une catastrophe, c'est une information, un signal qui permet de s'ajuster et d'apprendre."
+                "question": {
+                    "fr": "Cette figure pourrait-elle illustrer une métaphore à l'expérience humaine en général ?",
+                    "en": "Could this figure serve as a metaphor for the human experience more broadly?"
+                },
+                "answer": {
+                    "fr": "Cette figure met en avant les réponses cérébrales lorsque l'on se trompe — peut-être une métaphore de notre rapport à l'erreur. On voit ici qu'elle génère énormément d'énergie : cette intense vague bleue et rouge. Mais elle est passagère, et le système revient vite à son état de base. L'erreur n'est pas une catastrophe, c'est une information, un signal qui permet de s'ajuster et d'apprendre.",
+                    "en": "This figure highlights brain responses when we make a mistake — perhaps a metaphor for our relationship with error. We can see here that it generates a great deal of energy: that intense blue and red wave. But it is transient, and the system quickly returns to its baseline. Error is not a catastrophe; it is information, a signal that allows us to adjust and learn.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d’un moment plutôt hasardeux ?",
-                "answer": "Cette figure est arrivée en cours de validation d’une méthode d’analyse. Afin de valider cette méthode j’ai dû avoir recours à des données simulées mais réalistes d’enregistrement électroencéphalographique. Le but de la méthode était d’aligner les différentes réponses enregistrées. Cette figure était là pour illustrer la réussite de mon algorithme d’alignement et vient valider les tests effectués en amont, donc plutôt le fruit d’un effort long. "
+                "question": {
+                    "fr": "Racontez-nous un moment où vous avez capturé cette figure : était-ce le fruit d'un long effort, ou d'un moment plutôt hasardeux ?",
+                    "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
+                },
+                "answer": {
+                    "fr": "Cette figure est arrivée en cours de validation d'une méthode d'analyse. Afin de valider cette méthode, j'ai eu recours à des données simulées mais réalistes d'enregistrement électroencéphalographique. Le but de la méthode était d'aligner les différentes réponses enregistrées. Cette figure illustrait la réussite de mon algorithme d'alignement et venait valider les tests effectués en amont — donc plutôt le fruit d'un long effort.",
+                    "en": "This figure emerged during the validation of an analysis method. To validate it, I had to use simulated but realistic EEG recording data. The goal of the method was to align the various recorded responses. This figure was meant to illustrate the success of my alignment algorithm and to validate the upstream tests — so it was rather the fruit of a long effort.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
-                "answer": "Ce que cette figure ne dit pas, c'est le nombre de cafés et de lignes de code qu'il a fallu pour arriver à ce résultat. "
+                "question": {
+                    "fr": "Quel est le secret ou la petite anecdote derrière cette image qu'un journal scientifique ne publierait jamais ?",
+                    "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
+                },
+                "answer": {
+                    "fr": "Ce que cette figure ne dit pas, c'est le nombre de cafés et de lignes de code qu'il a fallu pour arriver à ce résultat.",
+                    "en": "What this figure doesn't say is the number of coffees and lines of code it took to arrive at this result.",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
-                "answer": " Chaque ligne horizontale représente un 'essai', c’est-à-dire un enregistrement de l'activité électrique (même si ici ce sont des données simulées afin de valider une méthode d’analyse) du cerveau lors de la réponse erronée à une tâche simple. Quand quelqu'un fait une erreur, son cerveau produit une réponse caractéristique (le passage bleu-rouge au centre)."
+                "question": {
+                    "fr": "Pourriez-vous nous expliquer, de la manière la plus simple possible, quelle information scientifique cette figure met en lumière ?",
+                    "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
+                },
+                "answer": {
+                    "fr": "Chaque ligne horizontale représente un « essai », c'est-à-dire un enregistrement de l'activité électrique du cerveau (ici des données simulées pour valider une méthode d'analyse) lors de la réponse erronée à une tâche simple. Quand quelqu'un fait une erreur, son cerveau produit une réponse caractéristique (le passage bleu-rouge au centre).",
+                    "en": "Each horizontal line represents a 'trial' — a recording of the brain's electrical activity (here using simulated data to validate an analysis method) during an erroneous response to a simple task. When someone makes a mistake, their brain produces a characteristic response (the blue-red transition in the center).",
+                    "original": "fr"
+                }
             },
             {
-                "question": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ??",
-                "answer": "Cette figure met en lumière un problème méthodologique fondamental : si nous ne tenons pas compte de la variabilité temporelle entre les essais, nous risquons de mal interpréter ce que le cerveau fait réellement. Corriger cette variabilité nous permet de distinguer les vraies réponses cérébrales des artefacts créés par nos méthodes d'analyse."
+                "question": {
+                    "fr": "Quelle est l'importance de ce que nous voyons ici pour notre compréhension globale du cerveau ?",
+                    "en": "How important is what we're seeing here for our broader understanding of the brain?"
+                },
+                "answer": {
+                    "fr": "Cette figure met en lumière un problème méthodologique fondamental : si nous ne tenons pas compte de la variabilité temporelle entre les essais, nous risquons de mal interpréter ce que le cerveau fait réellement. Corriger cette variabilité nous permet de distinguer les vraies réponses cérébrales des artefacts créés par nos méthodes d'analyse.",
+                    "en": "This figure highlights a fundamental methodological problem: if we do not account for temporal variability between trials, we risk misinterpreting what the brain is actually doing. Correcting for this variability allows us to distinguish true brain responses from artifacts created by our analysis methods.",
+                    "original": "fr"
+                }
             }
-        ]     
-    }  
+        ]
+    }
 ]

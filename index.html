@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeuRhône Gallery</title>
-    <!-- Fonts -- not sure about them yet-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Favicon -->
@@ -15,7 +14,6 @@
     <meta name="apple-mobile-web-app-title" content="NeuRhône Gallery" />
     <link rel="manifest" href="images/favicon/site.webmanifest" />
 
-    <!-- Color palette :same one as the canva moodboard jem bien -->
     <style>
         :root {
             --bg: #1a1a1a;
@@ -76,6 +74,7 @@
         nav {
             display: flex;
             gap: 40px;
+            align-items: center;
         }
 
         nav a {
@@ -86,6 +85,7 @@
             letter-spacing: 0.5px;
             transition: color 0.3s;
             position: relative;
+            white-space: nowrap;
         }
 
         nav a:hover,
@@ -101,6 +101,40 @@
             right: 0;
             height: 1.5px;
             background: var(--accent);
+        }
+
+        /* ─── LANGUAGE TOGGLE ─── */
+        .lang-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-left: 16px;
+        }
+
+        .lang-toggle button {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .lang-toggle button.active {
+            background: var(--accent);
+            color: var(--cream);
+        }
+
+        .lang-toggle button:not(.active):hover {
+            background: rgba(255,255,255,0.06);
+            color: var(--cream);
         }
 
         /* ─── HERO ─── */
@@ -332,6 +366,15 @@
             color: var(--text-muted);
         }
 
+        .translation-note {
+            display: block;
+            font-size: 0.78rem;
+            font-style: italic;
+            color: var(--accent-dark);
+            margin-bottom: 28px;
+            opacity: 0.8;
+        }
+
         /* ─── FOOTER ─── */
         footer {
             text-align: center;
@@ -374,6 +417,59 @@
             text-decoration: none;
         }
 
+        /* ─── SEMAINE DU CERVEAU PAGE ─── */
+        .semaine-page {
+            max-width: 1200px;
+        }
+
+        .semaine-header {
+            display: flex;
+            gap: 48px;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .semaine-text {
+            flex: 1;
+        }
+
+        .semaine-text h2 {
+            margin-bottom: 24px;
+        }
+
+        .sdc-logo {
+            width: 140px;
+            flex-shrink: 0;
+            margin-top: 12px;
+            opacity: 0.9;
+        }
+
+        .semaine-meta {
+            font-size: 0.88rem !important;
+            color: var(--accent-light) !important;
+            letter-spacing: 0.3px;
+        }
+
+        @media (max-width: 600px) {
+            .semaine-header { flex-direction: column-reverse; gap: 24px; }
+            .sdc-logo { width: 100px; }
+        }
+
+        .sdc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+            margin-top: 40px;
+        }
+
+        .sdc-grid img {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+            border-radius: 3px;
+            display: block;
+        }
+
         /* ─── ANIMATIONS ─── */
         .gallery-item {
             opacity: 0;
@@ -406,8 +502,6 @@
         }
 
         @media (max-width: 580px) {
-            .logo-text .name { font-size: 1.3rem; }
-            .logo-text .sub { font-size: 0.9rem; }
             .gallery { grid-template-columns: 1fr; }
             nav { gap: 16px; }
             nav a { font-size: 0.85rem; }
@@ -421,88 +515,177 @@
             <img src="images/logo.png" alt="NeuRhône Gallery logo">
         </div>
         <nav>
-            <a href="#" class="active" data-page="gallery">Gallery</a>
-            <a href="#" data-page="about">About Us</a>
-            <a href="#" data-page="contact">Contact</a>
+            <a href="#" class="active" data-page="gallery" data-i18n="nav.gallery">Galerie</a>
+            <a href="#" data-page="semaine" data-i18n="nav.semaine">Semaine du Cerveau</a>
+            <a href="#" data-page="about" data-i18n="nav.about">À propos</a>
+            <div class="lang-toggle">
+                <button id="btn-fr" class="active" onclick="setLang('fr')">FR</button>
+                <button id="btn-en" onclick="setLang('en')">EN</button>
+            </div>
         </nav>
     </header>
 
     <!-- ════════ GALLERY PAGE ════════ -->
     <main id="page-gallery" class="active">
         <div class="hero">
-            <p>A gallery that encompasses some of the neuroscience research led in Lyon</p>
+            <p data-i18n="hero.subtitle"></p>
         </div>
-        <div class="gallery" id="gallery-grid">
-            <!-- Items are injected by JS from the data below -->
-        </div>
+        <div class="gallery" id="gallery-grid"></div>
     </main>
 
     <!-- ════════ ABOUT PAGE ════════ -->
     <main id="page-about" class="page">
-        <h2>About Us</h2>
-        <p>
-            Students' project developed for the teaching unit "Proskills" of the Master1 Neurosciences (UCBL1)  
-        </p>   
-        <p>   
-            NeuRhône Gallery is a science outreach project that bridges neurosciences and art
-            by showcasing research visuals from Lyon's neuroscience community.
-        </p>
-        <p>
-            Each image tells a story. Behind every image is a researcher who chose it
-            because it captures something special about their work.
-        </p>
-        <p>
-            This project was born from the idea that scientific imagery can inspire awe and curiosity
-            in anyone, not just scientists. We invite you to explore, learn, and see the brain
-            like you never have before.
-        </p>
+        <h2 data-i18n="about.title"></h2>
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+        <p data-i18n="about.p3"></p>
+        <p data-i18n="about.p4"></p>
     </main>
 
-    <!-- ════════ CONTACT PAGE ════════ -->
-    <main id="page-contact" class="page">
-        <h2>Contact</h2>
-        <p>
-            Coming soon...
-        </p>
+    <!-- ════════ SEMAINE DU CERVEAU PAGE ════════ -->
+    <main id="page-semaine" class="page semaine-page">
+        <div class="semaine-header">
+            <div class="semaine-text">
+                <h2 data-i18n="semaine.title"></h2>
+                <p data-i18n="semaine.p1"></p>
+                <p class="semaine-meta" data-i18n="semaine.p2"></p>
+                <p data-i18n="semaine.p3"></p>
+            </div>
+            <img src="images/sdc/logo-140.png" alt="Semaine du Cerveau" class="sdc-logo">
+        </div>
+        <div class="sdc-grid">
+            <img src="images/sdc/IMG_SDC.png"   alt="">
+            <img src="images/sdc/IMG_0136.png"  alt="">
+            <img src="images/sdc/IMG_0166.png"  alt="">
+            <img src="images/sdc/IMG_6767.png"  alt="">
+        </div>
     </main>
+
 
     <!-- ════════ DETAIL MODAL ════════ -->
     <div class="modal-backdrop" id="modal">
         <button class="modal-close" id="modal-close">×</button>
-        <div class="modal-content" id="modal-inner">
-            <!-- Filled dynamically -->
-        </div>
+        <div class="modal-content" id="modal-inner"></div>
     </div>
 
     <footer>
-        NeuRhône Gallery · Master Neurosciences · Université Claude Bernard lyon 1 
+        <span data-i18n="footer.text"></span>
     </footer>
 
     <script>
     // ══════════════════════════════════════════════
-    //  LOAD DATA FROM JSON & RENDER
+    //  TRANSLATIONS
     // ══════════════════════════════════════════════
-    let galleryData = [];
+    const translations = {
+        fr: {
+            'nav.gallery': 'Galerie',
+            'nav.about': 'À propos',
+            'nav.contact': 'Contact',
+            'hero.subtitle': 'Une galerie qui rassemble des images issues de la recherche en neurosciences menée à Lyon',
+            'about.title': 'À propos',
+            'about.p1': 'Projet étudiant développé dans le cadre de l\'unité d\'enseignement « Proskills » du Master 1 Neurosciences (UCBL1).',
+            'about.p2': 'NeuRhône Gallery est un projet de médiation scientifique qui fait le pont entre neurosciences et art en mettant en valeur des images de recherche issues de la communauté neuroscientifique lyonnaise.',
+            'about.p3': 'Chaque image raconte une histoire. Derrière chaque image se trouve un chercheur qui l\'a choisie parce qu\'elle capture quelque chose de particulier dans son travail.',
+            'about.p4': 'Ce projet est né de l\'idée que l\'imagerie scientifique peut susciter l\'émerveillement et la curiosité chez tout le monde, pas seulement chez les scientifiques. Nous vous invitons à explorer, apprendre et voir le cerveau comme vous ne l\'avez jamais vu.',
+            'footer.text': 'NeuRhône Gallery · Master Neurosciences · Université Claude Bernard Lyon 1',
+            'error.load': 'Erreur de chargement des données. Vérifiez que data/gallery.json existe.',
+            'translated.from_en': 'Réponses traduites de l\'anglais',
+            'image.missing': 'Image à venir',
+            'nav.semaine': 'Semaine du Cerveau',
+            'semaine.title': 'NeuRhône Gallery — Semaine du Cerveau 2026',
+            'semaine.p1': 'Une exposition innovante à la croisée de l\'art et des sciences, présentant les perspectives artistiques de chercheurs en neurosciences à travers des images scientifiques commentées par leurs créateurs. Chaque œuvre offre une double lecture : une dimension artistique à contempler et une dimension scientifique expliquant ce que révèle cette image sur le cerveau. Les techniques représentées incluent la microscopie, la modélisation de réseaux neuronaux et l\'imagerie fonctionnelle.',
+            'semaine.p2': '10 – 23 mars 2026  ·  BU Sciences La Doua, 20 avenue Gaston Berger, Villeurbanne  ·  Entrée libre',
+            'semaine.p3': 'Projet porté par Zayneb Bellatif, Dina Ben Amar, Clara Chuzeville et Ambre Courthiau, étudiantes en Master 1 Neurosciences à l\'Université Claude Bernard Lyon 1.',
+        },
+        en: {
+            'nav.gallery': 'Gallery',
+            'nav.about': 'About Us',
+            'nav.contact': 'Contact',
+            'hero.subtitle': 'A gallery showcasing neuroscience research images from Lyon\'s scientific community',
+            'about.title': 'About Us',
+            'about.p1': 'A student project developed for the "Proskills" teaching unit of the Master 1 Neurosciences program (UCBL1).',
+            'about.p2': 'NeuRhône Gallery is a science outreach project that bridges neuroscience and art by showcasing research visuals from Lyon\'s neuroscience community.',
+            'about.p3': 'Each image tells a story. Behind every image is a researcher who chose it because it captures something special about their work.',
+            'about.p4': 'This project was born from the idea that scientific imagery can inspire awe and curiosity in anyone, not just scientists. We invite you to explore, learn, and see the brain like you never have before.',
+            'footer.text': 'NeuRhône Gallery · Master Neurosciences · Université Claude Bernard Lyon 1',
+            'error.load': 'Failed to load data. Please check that data/gallery.json exists.',
+            'translated.from_fr': 'Interview responses translated from French',
+            'image.missing': 'Image coming soon',
+            'nav.semaine': 'Semaine du Cerveau',
+            'semaine.title': 'NeuRhône Gallery — Brain Awareness Week 2026',
+            'semaine.p1': 'An innovative exhibition at the crossroads of art and science, showcasing the artistic perspectives of neuroscience researchers through scientific images commented by their creators. Each work offers a dual reading: an artistic dimension to contemplate, and a scientific one explaining what the image reveals about the brain. Techniques on display include microscopy, neural network modelling, and functional imaging.',
+            'semaine.p2': 'March 10 – 23, 2026  ·  BU Sciences La Doua, 20 avenue Gaston Berger, Villeurbanne  ·  Free admission',
+            'semaine.p3': 'A project by Zayneb Bellatif, Dina Ben Amar, Clara Chuzeville and Ambre Courthiau, first-year Master\'s students in Neurosciences at Université Claude Bernard Lyon 1.',
+        }
+    };
 
+    // ══════════════════════════════════════════════
+    //  LANGUAGE STATE
+    // ══════════════════════════════════════════════
+    let currentLang = localStorage.getItem('neurhone-lang') || 'fr';
+    let galleryData = [];
+    let currentModalItem = null;
+
+    function t(key) {
+        return (translations[currentLang] && translations[currentLang][key]) || key;
+    }
+
+    function L(obj) {
+        if (!obj || typeof obj === 'string') return obj || '';
+        return obj[currentLang] || obj.fr || obj.en || '';
+    }
+
+    function setLang(lang) {
+        if (lang === currentLang) return;
+        currentLang = lang;
+        localStorage.setItem('neurhone-lang', lang);
+        document.documentElement.lang = lang;
+
+        document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+        document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+
+        applyStaticTranslations();
+
+        if (galleryData.length) renderGallery();
+
+        if (currentModalItem) {
+            renderModalContent(currentModalItem);
+        }
+    }
+
+    function applyStaticTranslations() {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            el.textContent = t(el.dataset.i18n);
+        });
+    }
+
+    // ══════════════════════════════════════════════
+    //  LOAD DATA & RENDER
+    // ══════════════════════════════════════════════
     const grid = document.getElementById('gallery-grid');
     const modal = document.getElementById('modal');
     const modalInner = document.getElementById('modal-inner');
     const modalClose = document.getElementById('modal-close');
 
-    // Load gallery data from external JSON
+    document.documentElement.lang = currentLang;
+    document.getElementById('btn-fr').classList.toggle('active', currentLang === 'fr');
+    document.getElementById('btn-en').classList.toggle('active', currentLang === 'en');
+
     fetch('data/gallery.json')
         .then(res => res.json())
         .then(data => {
             galleryData = data;
+            applyStaticTranslations();
             renderGallery();
             const match = window.location.hash.match(/^#image-(\d+)$/);
             if (match) {
-                 const item = galleryData.find(d => d.id === parseInt(match[1]));
+                const item = galleryData.find(d => d.id === parseInt(match[1]));
                 if (item) openModal(item);
-         }
-    })
+            }
+        })
         .catch(err => {
-            grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;">Erreur de chargement des données. Vérifiez que data/gallery.json existe.</p>';
+            applyStaticTranslations();
+            grid.innerHTML = `<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;">${t('error.load')}</p>`;
             console.error('Failed to load gallery data:', err);
         });
 
@@ -512,11 +695,12 @@
             const div = document.createElement('div');
             div.className = 'gallery-item';
             div.style.animationDelay = `${0.05 + i * 0.07}s`;
+            const title = L(item.title);
             div.innerHTML = `
-                <img src="${item.image}" alt="${item.title}" loading="lazy"
-                     onerror="this.style.background='#2a2a2a';this.alt='Image à venir'">
+                <img src="${item.image}" alt="${title}" loading="lazy"
+                     onerror="this.style.background='#2a2a2a';this.alt='${t('image.missing')}'">
                 <div class="overlay">
-                    <div class="item-title">${item.title}</div>
+                    <div class="item-title">${title}</div>
                     <div class="item-researcher">${item.researcher.name}</div>
                 </div>
             `;
@@ -528,20 +712,34 @@
     // ══════════════════════════════════════════════
     //  MODAL
     // ══════════════════════════════════════════════
-    function openModal(item) {
-        const interviewHTML = item.interview.map(q => `
-            <div class="interview-section">
-                <h3>${q.question}</h3>
-                <p>${q.answer}</p>
-            </div>
-        `).join('');
+    function renderModalContent(item) {
+        const lang = currentLang;
+        const otherLang = lang === 'fr' ? 'en' : 'fr';
 
+        const hasTranslation = item.interview.some(q => q.answer.original && q.answer.original !== lang);
+        const noteKey = lang === 'en' ? 'translated.from_fr' : 'translated.from_en';
+        const translationBanner = hasTranslation
+            ? `<span class="translation-note">— ${t(noteKey)}</span>`
+            : '';
+
+        const interviewHTML = item.interview.map(q => {
+            const answer = q.answer;
+            const answerText = answer[lang] || answer[otherLang] || '';
+            return `
+                <div class="interview-section">
+                    <h3>${L(q.question)}</h3>
+                    <p>${answerText}</p>
+                </div>
+            `;
+        }).join('');
+
+        const desc = L(item.description);
         modalInner.innerHTML = `
             <div class="modal-image-col">
-                <img src="${item.image}" alt="${item.title}"
+                <img src="${item.image}" alt="${L(item.title)}"
                      onerror="this.style.background='#2a2a2a'">
                 <div class="modal-image-caption">
-                    <span class="caption-label">${item.description}</span>
+                    ${desc ? `<span class="caption-label">${desc}</span>` : ''}
                     ${item.articleLink && item.articleLink !== '#'
                         ? `<a href="${item.articleLink}" target="_blank">${item.articleLabel || ''}</a>`
                         : `<span style="color:var(--text-muted)">${item.articleLabel || ''}</span>`
@@ -550,17 +748,20 @@
             </div>
             <div class="modal-info-col">
                 <div class="researcher-card">
-                    <img src="${item.researcher.photo}" alt="${item.researcher.name}"
-                         onerror="this.style.background='var(--accent-dark)'">
                     <div class="rc-info">
                         <div class="rc-name">${item.researcher.name}</div>
-                        <div class="rc-role">${item.researcher.role}</div>
+                        <div class="rc-role">${L(item.researcher.role)}</div>
                     </div>
                 </div>
+                ${translationBanner}
                 ${interviewHTML}
             </div>
         `;
+    }
 
+    function openModal(item) {
+        currentModalItem = item;
+        renderModalContent(item);
         modal.classList.add('open');
         document.body.style.overflow = 'hidden';
         window.location.hash = `image-${item.id}`;
@@ -569,30 +770,25 @@
     function closeModal() {
         modal.classList.remove('open');
         document.body.style.overflow = '';
+        currentModalItem = null;
         history.replaceState(null, '', window.location.pathname);
     }
 
     modalClose.addEventListener('click', closeModal);
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) closeModal();
-    });
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeModal();
-    });
+    modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
 
     // ══════════════════════════════════════════════
     //  PAGE NAVIGATION
     // ══════════════════════════════════════════════
-    document.querySelectorAll('nav a').forEach(link => {
+    document.querySelectorAll('nav a[data-page]').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const page = link.dataset.page;
 
-            // Update nav
-            document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+            document.querySelectorAll('nav a[data-page]').forEach(a => a.classList.remove('active'));
             link.classList.add('active');
 
-            // Show/hide pages
             document.querySelectorAll('main').forEach(m => {
                 m.classList.remove('active');
                 m.style.display = 'none';
@@ -607,14 +803,14 @@
     });
 
     // Init
-    renderGallery();
+    applyStaticTranslations();
     document.getElementById('page-about').style.display = 'none';
-    document.getElementById('page-contact').style.display = 'none';
+    document.getElementById('page-semaine').style.display = 'none';
 
     // ══════════════════════════════════════════════
-    //  DEEP LINKING (for QR codes)
+    //  DEEP LINKING
     // ══════════════════════════════════════════════
-        window.addEventListener('hashchange', () => {
+    window.addEventListener('hashchange', () => {
         const match = window.location.hash.match(/^#image-(\d+)$/);
         if (match) {
             const item = galleryData.find(d => d.id === parseInt(match[1]));
@@ -622,7 +818,7 @@
         } else {
             closeModal();
         }
-        });
+    });
     </script>
 </body>
 </html>
