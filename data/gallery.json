@@ -144,8 +144,8 @@
                     "en": "If you set aside your scientific expertise for a moment, what's the first emotion or feeling this image stirs in you?"
                 },
                 "answer": {
-                    "fr": "Du calme et de la sérénité.",
-                    "en": "Calmness and serenity.",
+                    "fr": "Une sensation de nostalgie, d'éclat et de bien-être.",
+                    "en": "A feeling of nostalgia, brilliance, and well-being.",
                     "original": "fr"
                 }
             },
@@ -155,8 +155,8 @@
                     "en": "If this figure were a work of art, what artistic movement or artist would it remind you of?"
                 },
                 "answer": {
-                    "fr": "De l'abstrait géométrique, comme Piet Mondrian, son courant artistique est le néoplasticisme.",
-                    "en": "Geometric abstraction, like Piet Mondrian — his artistic movement is Neo-Plasticism.",
+                    "fr": "Cela me ferait penser à de l'art contemporain par ses couleurs vives.",
+                    "en": "It would remind me of contemporary art, with its bright colours.",
                     "original": "fr"
                 }
             },
@@ -166,8 +166,8 @@
                     "en": "Which colors, shapes, or textures captivate you most in this visual?"
                 },
                 "answer": {
-                    "fr": "Les parties où les couleurs sont intenses et s'inversent, les lignes très géométriques.",
-                    "en": "The areas where the colors are intense and invert, and the very geometric lines.",
+                    "fr": "Ce qui est captivant sont les petites taches de couleurs vives, elles donnent un ensemble visuel agréable mais bien qu'elles soient minimes, si l'on se concentre, on peut les discerner une par une.",
+                    "en": "What is captivating are the small spots of vivid colour — they create a pleasing overall visual, and although they are tiny, if you focus, you can distinguish them one by one.",
                     "original": "fr"
                 }
             },
@@ -177,8 +177,8 @@
                     "en": "What does this image make you think of outside the lab? Does it remind you of a memory, a familiar landscape, or an everyday object?"
                 },
                 "answer": {
-                    "fr": "Ça ressemble un peu à un tissage tartan celte ou à un écran d'ordinateur cassé.",
-                    "en": "It looks a bit like a Celtic tartan weave or a broken computer screen.",
+                    "fr": "Elle me fait penser aux guirlandes de couleur, suspendues au-dessus des arbres des places des villages du sud de la France, lors des guinguettes en été, ou alors à celles de Noël dans les maisons.",
+                    "en": "It makes me think of coloured fairy lights hanging above the trees in village squares in the south of France, during summer outdoor dances — or Christmas lights at home.",
                     "original": "fr"
                 }
             },
@@ -188,8 +188,8 @@
                     "en": "Could this figure serve as a metaphor for the human experience more broadly?"
                 },
                 "answer": {
-                    "fr": "Que notre réalité dépend de notre expérience, de ce qu'on veut voir et des outils qu'on a pour la voir.",
-                    "en": "That our reality depends on our experience, on what we want to see, and on the tools we have to see it.",
+                    "fr": "Que même dans les moments les plus sombres de sa vie, on a ces petites lumières en nous, qui scintillent.",
+                    "en": "That even in the darkest moments of one's life, there are these little lights within us that still shimmer.",
                     "original": "fr"
                 }
             },
@@ -199,8 +199,8 @@
                     "en": "Tell us about the moment you captured this figure. Was it the result of a long effort, or more of a happy accident?"
                 },
                 "answer": {
-                    "fr": "Plutôt un heureux hasard. J'utilise normalement une méthodologie développée par d'autres, je ne comprends pas tout ce qu'il y a en dessous. Un peu comme quand on mange un gâteau pas bon — si on n'a pas vu comment il a été préparé, on ne sait pas si le problème vient des ingrédients ou du four. J'étais un peu frustrée et je me suis dit que si je visualisais toutes les étapes intermédiaires de la méthode (comment les données sont modifiées et à quoi elles ressemblent), je comprendrais sûrement mieux !",
-                    "en": "More of a happy accident. I normally use a methodology developed by others and don't fully understand everything under the hood — a bit like eating a bad cake. If you didn't see how it was made, you can't tell whether the problem was the ingredients or the oven. I was a little frustrated, and I thought that if I visualized all the intermediate steps of the method — how the data is transformed and what it looks like — I would surely understand it better!",
+                    "fr": "Pour en arriver là, c'est le fruit d'un effort de plusieurs mois de travail de manipulation in vivo, puis ex vivo, puis d'analyse d'image.",
+                    "en": "Getting here was the result of several months of effort — in vivo work, then ex vivo, then image analysis.",
                     "original": "fr"
                 }
             },
@@ -210,8 +210,8 @@
                     "en": "What's the secret or little anecdote behind this image that a scientific journal would never publish?"
                 },
                 "answer": {
-                    "fr": "J'ai passé plus de temps à changer les couleurs de la figure pour qu'elles me plaisent qu'à analyser ce qu'elle voulait dire… la palette de couleur s'appelle « winter » et ça m'a plu.",
-                    "en": "I spent more time adjusting the figure's colors to my taste than actually analyzing what it meant… The color palette is called 'winter', and I liked that.",
+                    "fr": "Le secret est que je peux changer les couleurs à ma guise, et que j'ai décrété que tel neurone devait avoir telle couleur, créant une harmonie de couleur, permettant de distinguer correctement chaque neurone. Finalement être scientifique, c'est être aussi artiste.",
+                    "en": "The secret is that I can change the colours as I please — I decided which colour each neuron should have, creating a colour harmony that allows each one to be clearly distinguished. In the end, being a scientist means being an artist too.",
                     "original": "fr"
                 }
             },
@@ -221,8 +221,8 @@
                     "en": "Could you explain, as simply as possible, what scientific insight this figure highlights?"
                 },
                 "answer": {
-                    "fr": "Lorsqu'on enregistre l'activité cérébrale d'un participant, on utilise environ 200 capteurs qui représentent à la fois les lignes et les colonnes de cette figure. Les couleurs représentent à quel point les capteurs nous disent la même chose sur l'activité du cerveau (le signal qu'ils enregistrent « covarie » au cours du temps — ici le temps est écrasé). Cela peut permettre de visualiser si certaines régions du cerveau (même éloignées) travaillent ensemble. Si la covariance est élevée, la couleur est intense, et les signaux varient de manière similaire (si bleu) ou opposé (si vert).",
-                    "en": "When recording a participant's brain activity, we use around 200 sensors that make up both the rows and columns of this figure. The colors represent how much the sensors agree about what the brain is doing — how much their signals 'co-vary' over time (with time collapsed here). This lets us visualize whether certain brain regions, even distant ones, are working together. When covariance is high, the color is intense: signals vary similarly (blue) or in opposite directions (green).",
+                    "fr": "Vous faites face à une coupe de cerveau de souris, le cortex se situe en haut de l'image, en dessous l'hippocampe, puis le thalamus, suivis de l'hypothalamus situé au bas de l'image. Chaque couleur marque un type de neurone : en vert les neurones actifs en sommeil paradoxal, en rouge ceux actifs en éveil, en violet les neurones produisant l'hormone de mélanocortine (MCH). Certains neurones peuvent être marqués de plusieurs couleurs — c'est justement ce que nous avons cherché à voir. Arrivez-vous à observer ces doubles marquages ? Les neurones MCH sont-ils plus activés en éveil ou en sommeil paradoxal ?",
+                    "en": "You are looking at a mouse brain slice. The cortex is at the top of the image, below it the hippocampus, then the thalamus, and at the bottom the hypothalamus. Each colour marks a type of neuron: green marks neurons active during REM sleep, red those active during wakefulness, and violet the neurons producing melanin-concentrating hormone (MCH). Some neurons can carry multiple labels — and that is precisely what we were looking for. Can you spot those double-labelled cells? Are the MCH neurons more active during wakefulness or during REM sleep?",
                     "original": "fr"
                 }
             },
@@ -232,8 +232,8 @@
                     "en": "How important is what we're seeing here for our broader understanding of the brain?"
                 },
                 "answer": {
-                    "fr": "Cela ne nous dit rien directement pour le cerveau, mais cette matrice est une pièce maîtresse d'une méthode permettant de faire le lien entre ce qu'on enregistre en dehors du cerveau et les sources et circuits physiques de cette activité à l'intérieur du cerveau (quand on fait un mouvement, qu'on écoute des sons particuliers…). Un peu comme trouver l'épicentre d'un séisme — ici la terre c'est la tête.",
-                    "en": "On its own, it tells us nothing directly about the brain — but this matrix is a cornerstone of a method that links what we record outside the brain to the actual sources and physical circuits of that activity within the brain (during movements, while listening to specific sounds…). A bit like finding the epicenter of an earthquake — here, the earth is the head.",
+                    "fr": "Ces images nous permettent d'établir une cartographie des neurones actifs lors d'un état de vigilance donné, ici lors de l'éveil (rouge) ou du sommeil paradoxal (vert), et de déterminer leur identité neurochimique. À terme, cela nous aidera à mieux comprendre les maladies liées au sommeil et ainsi mieux les traiter.",
+                    "en": "These images allow us to map the neurons active during a given state of alertness — here, wakefulness (red) or REM sleep (green) — and to determine their neurochemical identity. Ultimately, this will help us better understand sleep disorders and treat them more effectively.",
                     "original": "fr"
                 }
             }
